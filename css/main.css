@@ -3,9 +3,7 @@ i {
     height 100px;
 }
 
-div.container {
-    width: 800px;
-    height: 1000px;
+div.container-fluid {
     margin: 0 auto;
     padding: 3cm;
     text-align: center;
