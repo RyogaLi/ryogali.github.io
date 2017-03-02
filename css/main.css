@@ -1,4 +1,23 @@
-h1 {
-    color: Grey;
-    font: "Verdana";
+i {
+    width: 100px;
+    height 100px;
+}
+
+div.container {
+    width: 800px;
+    height: 1000px;
+    margin: 0 auto;
+    padding: 3cm;
+    text-align: center;
+}
+h1{
+    line-height: 500%;
+}
+
+div.jumbotron {
+    background-color: hsl(0, 0%, 100%);
+}
+
+div.navbar navbar-default{
+    background-color: hsl(0, 0%, 100%);
 }
