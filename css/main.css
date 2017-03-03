@@ -5,9 +5,11 @@ i {
 
 div.container-fluid {
     margin: 0 auto;
-    padding: 3cm;
+    width: 800px;
+    padding-top: 2cm;
     text-align: center;
 }
+
 h1{
     line-height: 500%;
 }
