@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ryoga Li</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/blog.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+
+
+
+<body>
+<nav class="navbar navbar-default">
+
+        <ul class="nav navbar-nav">
+          <li ><a href="../index.html"">HOME</a></li>
+            <li class="active"><a href="./pages/blog.html">BLOG</a></li>
+        </ul>
+</nav>
+
+<div class="container-fluid">
+
+        <!--<div class="col-sm-3">-->
+            <!--<ul class="list-group">-->
+                <!--<li class="list-group-item">Python</li>-->
+                <!--<li class="list-group-item">R</li>-->
+                <!--<li class="list-group-item">Bash</li>-->
+            <!--</ul>-->
+        <!--</div>-->
+        <div class="articles">
+            <article class="python">
+                <h1>Python Hacks</h1>
+                <p>Some useful python hacks or one-line code</p>
+                <ul>
+                    <li>split a list into evenly sized chunks
+                    <p><pre><code>[l[i:i + n] for i in xrange(0, len(l), n)]</code></pre></p>
+                    </li>
+                </ul>
+            </article>
+            <hr/>
+            <article class="R">
+                <h1>R Basics</h1>
+                <p>Some R basics for beginners</p>
+                <ul>
+                    <li>convert every element in a col in <code>data.frame</code> to another type
+                    <p><pre><code>transform(d, col=as.numeric(col))</code></pre></p>
+                    </li>
+                    <li>Parse command line arguments
+                    <p><pre><code>library("argparse")
+parser <- ArgumentParser()
+parser$add_argument("-i", "--input", help="input file name")
+parser$add_argument(file, nargs=1, help="file to be processed")
+
+args <- parser$parse_args()
+input <- args$input
+file <- args$file</code></pre></p>
+                    </li>
+                </ul>
+            </article>
+            <hr/>
+
+    </div>
+</div>
+
+
+</body>
+</html>
