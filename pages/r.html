@@ -32,13 +32,13 @@
                     </li>
                     <li>Parse command line arguments
                     <p><pre><code>library("argparse")
-                          parser <- ArgumentParser()
-                          parser$add_argument("-i", "--input", help="input file name")
-                          parser$add_argument(file, nargs=1, help="file to be processed")
+parser <- ArgumentParser()
+parser$add_argument("-i", "--input", help="input file name")
+parser$add_argument(file, nargs=1, help="file to be processed")
 
-                          args <- parser$parse_args()
-                          input <- args$input
-                          file <- args$file
+args <- parser$parse_args()
+input <- args$input
+file <- args$file
                     </code></pre></p>
                     </li>
                 </ul>

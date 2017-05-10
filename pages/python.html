@@ -33,27 +33,6 @@
                 </ul>
             </article>
             <hr/>
-            <article class="R">
-                <h1>R Basics</h1>
-                <p>Some R basics for beginners</p>
-                <ul>
-                    <li>convert every element in a col in <code>data.frame</code> to another type
-                    <p><pre><code>transform(d, col=as.numeric(col))</code></pre></p>
-                    </li>
-                    <li>Parse command line arguments
-                    <p><pre><code>library("argparse")
-parser <- ArgumentParser()
-parser$add_argument("-i", "--input", help="input file name")
-parser$add_argument(file, nargs=1, help="file to be processed")
-
-args <- parser$parse_args()
-input <- args$input
-file <- args$file</code></pre></p>
-                    </li>
-                </ul>
-            </article>
-            <hr/>
-
     </div>
 </div>
 
