@@ -9,3 +9,4 @@ Although Jekyll and Github Pages provided many useful tutorials about how to cre
 ### Initializing the repository on Github and installing Jekyll
 
 To initializing the repository on Github, here is a nice summary from Github :) - [Github Pages](https://www.google.com)
+
