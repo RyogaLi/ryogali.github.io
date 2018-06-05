@@ -16,12 +16,18 @@ To create a new Jekyll website, here is a tut from Jekyll - [Quick start guide](
 
 After initializing by running `jekyll new your-dir`, the default theme is called `minima`. You will find the structure of the repo as stated in [understanding gem based themes](https://jekyllrb.com/docs/themes/#understanding-gem-based-themes). From this basic structure we can start to build our own website. 
 
-#### Some basics about the theme
+#### Basics about the theme
 
 In the `_config.yml`, you can change the basic things of the website like `title` and `description`. 
+
 If you want to modify any part of this theme [minima](https://github.com/jekyll/minima), you can create folders and file names to overwrite the original layout. A more detailed explanation can be found [here](https://jekyllrb.com/docs/themes/#overriding-theme-defaults).
 
 
+#### 
+
 ---
 
-### 
+### Modifying the home page
+
+
+### Modifying the post page
