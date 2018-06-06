@@ -1,7 +1,7 @@
 # SITE CONFIGURATION
-baseurl: "/ryogali.github.io"
+baseurl: ""
 url: "https://ryogali.github.io/"
-title: Type on Strap # site's title
+title: ryogali.github.io # site's title
 description: "A website with blog posts and pages" # used by search engines
 
 
