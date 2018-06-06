@@ -1,15 +1,15 @@
 # SITE CONFIGURATION
 baseurl: ""
 url: "https://ryogali.github.io/"
-title: ryogali.github.io # site's title
+title: # site's title
 description: "A website with blog posts and pages" # used by search engines
 
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Type on Strap # blog's title
-  avatar: assets/img/triangle.svg
+  title: Ryoga Li # blog's title
+  avatar: assets/img/place_holder_black.jpg
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
 
