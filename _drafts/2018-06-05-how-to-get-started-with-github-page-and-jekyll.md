@@ -32,9 +32,6 @@ Here I am using the theme called Type on Strap developed by Sylhare. Please find
 
 ### Modifying the home page
 
-#### Notes
-
-* change the overal font of this page. All the fonts in articles should be with sanf
 
 
 #### Header
