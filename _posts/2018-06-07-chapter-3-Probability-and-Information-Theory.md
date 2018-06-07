@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Chapter 3"
+title:  "Part 1 - 3"
 tags: [Deep Learning, Machine Learning, Notes]
 ---
 
-##### Notes on the [Deep Learning Textbook](http://www.deeplearningbook.org/) Chapter 3 - Probability and Information Theory
+##### Notes on the [Deep Learning Textbook](http://www.deeplearningbook.org/) Part 1 - 3 -- Probability and Information Theory
 ---
 
 #### Distributions
