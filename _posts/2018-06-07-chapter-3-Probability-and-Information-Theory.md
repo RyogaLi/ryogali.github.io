@@ -4,17 +4,18 @@ title:  "Chapter 3"
 tags: [Deep Learning, Machine Learning, Notes]
 ---
 
-###### Notes on the [Deep Learning Textbook](http://www.deeplearningbook.org/) Chapter 3 - Probability and Information Theory
+##### Notes on the [Deep Learning Textbook](http://www.deeplearningbook.org/) Chapter 3 - Probability and Information Theory
 ---
 
-### Distributions
+#### Distributions
+* 
 * [Multivariate normal distribution](https://en.wikipedia.org/wiki/Multivariate_normal_distribution)
 * [Empirical distribution](https://www.statlect.com/asymptotic-theory/empirical-distribution)
-* [Gaussian mixture model](http://research.stowers.org/mcm/efg/R/Statistics/MixturesOfDistributions/index.html) [Scikit](http://scikit-learn.org/stable/modules/mixture.html)
+* [Gaussian mixture model](http://research.stowers.org/mcm/efg/R/Statistics/MixturesOfDistributions/index.html), also more on [Scikit](http://scikit-learn.org/stable/modules/mixture.html)
 
 ---
 
-### Useful Functions
+#### Useful Functions
 
 * Logistics sigmoid: commonly used to produce the phi parameter for beunoulli distribution 
 * Softplus: mean and variance for nomal distribution 
