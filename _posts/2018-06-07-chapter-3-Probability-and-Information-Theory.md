@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Part I - 3"
+title:  "Deep Learning: Part I - 3"
 tags: [Deep Learning, Machine Learning, Notes]
 ---
 
