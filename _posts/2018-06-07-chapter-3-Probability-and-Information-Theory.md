@@ -8,7 +8,6 @@ tags: [Deep Learning, Machine Learning, Notes]
 ---
 
 #### Distributions
-* 
 * [Multivariate normal distribution](https://en.wikipedia.org/wiki/Multivariate_normal_distribution)
 * [Empirical distribution](https://www.statlect.com/asymptotic-theory/empirical-distribution)
 * [Gaussian mixture model](http://research.stowers.org/mcm/efg/R/Statistics/MixturesOfDistributions/index.html), also more on [Scikit](http://scikit-learn.org/stable/modules/mixture.html)
