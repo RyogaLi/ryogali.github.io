@@ -12,22 +12,24 @@ tags: [Deep Learning, Machine Learning, Notes]
 
 $$ P(x^{(1)}, ..., x^{(n)}) = P(x^{(1)}) \prod_{i=2}^{n} P(x^{i} | x^{(1)}, ..., x^{(n)}) $$
 	
-	Some example:
+Some example:
 
-	$$ P(a, b, c) = P(a | b, c)P(b, c) $$
+$$ P(a, b, c) = P(a | b, c)P(b, c) $$
 
-	$$ P(a, b, c) = P(a | b, c)P(b | c)P(c) $$
+$$ P(a, b, c) = P(a | b, c)P(b | c)P(c) $$
 
-* Independence 
-
-$$ \forall x \in \vec(x) $$
-
-* Conditionally independent
-
+* Independence and Conditionally independence
+* Expectation, Variantce and Covariance
 
 ---
 
 #### Distributions ####
+* Bernoulli Distibution, controlled by a single parameter $$\phi \ in [0, 1]$$
+* Multinoulli Distribution, or categorical distribution. 
+* Gaussian distribution and central limit theorem. 
+
+$$\mathcal{N}(x; \mu, \sigma^{2}) = \sqrt{\frac{1}{2\pi\sigma^{2}}} $$
+
 * [Multivariate normal distribution](https://en.wikipedia.org/wiki/Multivariate_normal_distribution)
 * [Empirical distribution](https://www.statlect.com/asymptotic-theory/empirical-distribution)
 * [Gaussian mixture model](http://research.stowers.org/mcm/efg/R/Statistics/MixturesOfDistributions/index.html), also more on [Scikit](http://scikit-learn.org/stable/modules/mixture.html)
