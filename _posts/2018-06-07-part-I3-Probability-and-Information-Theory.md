@@ -9,9 +9,21 @@ tags: [Deep Learning, Machine Learning, Notes]
 ---
 #### Basics ####
 * The chain rule of conditional probabilities
+
 $$ P(x^{(1)}, ..., x^{(n)}) = P(x^{(1)}) \prod_{i=2}^{n} P(x^{i} | x^{(1)}, ..., x^{(n)}) $$
+	
 	Some example:
+
 	$$ P(a, b, c) = P(a | b, c)P(b, c) $$
+
+	$$ P(a, b, c) = P(a | b, c)P(b | c)P(c) $$
+
+* Independence 
+
+$$ \forall x \in \vec(x) $$
+
+* Conditionally independent
+
 
 ---
 
