@@ -5,16 +5,24 @@ tags: [Deep Learning, Machine Learning, Notes]
 ---
 
 ##### Notes on the [Deep Learning Textbook](http://www.deeplearningbook.org/) Part I - 3 -- Probability and Information Theory
+
+---
+#### Basics ####
+* The chain rule of conditional probabilities
+$$ P(x^{(1)}, ..., x^{(n)}) = P(x^{(1)}) \prod_{i=2}^{n} P(x^{i} | x^{(1)}, ..., x^{(n)}) $$
+	Some example:
+	$$ P(a, b, c) = P(a | b, c)P(b, c) $$
+
 ---
 
-#### Distributions
+#### Distributions ####
 * [Multivariate normal distribution](https://en.wikipedia.org/wiki/Multivariate_normal_distribution)
 * [Empirical distribution](https://www.statlect.com/asymptotic-theory/empirical-distribution)
 * [Gaussian mixture model](http://research.stowers.org/mcm/efg/R/Statistics/MixturesOfDistributions/index.html), also more on [Scikit](http://scikit-learn.org/stable/modules/mixture.html)
 
 ---
 
-#### Useful Functions
+#### Useful Functions ####
 
 * Logistics sigmoid: commonly used to produce the phi parameter for beunoulli distribution 
 * Softplus: mean and variance for nomal distribution 
