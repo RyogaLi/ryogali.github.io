@@ -12,7 +12,6 @@ tags: [Deep Learning, Machine Learning, Notes]
 ##### The chain rule of conditional probabilities
 
 $$ P(x^{(1)}, ..., x^{(n)}) = P(x^{(1)}) \prod_{i=2}^{n} P(x^{i} | x^{(1)}, ..., x^{(n)}) $$
-
 i.e.
 
 $$ P(a, b, c) = P(a | b, c)P(b | c)P(c) $$
@@ -23,20 +22,19 @@ $$ P(a, b, c) = P(a | b, c)P(b | c)P(c) $$
 ---
 
 #### Distributions ####
-##### Bernoulli Distribution
-controlled by a single parameter $$\phi \in [0, 1]$$
-##### Multinoulli Distribution, or categorical distribution.
+##### Bernoulli Distribution (Multinoulli Distribution, or categorical distribution)
+Bernoulli controlled by a single parameter $$\phi \in [0, 1]$$
 ##### Gaussian distribution and central limit theorem.
 
-$$ \mathcal{N}(x; \mu, \sigma^{2}) = \sqrt{\frac{1}{2\pi\sigma^{2}}} exp(-\frac{1}{2\sigma^{2}}(x - \mu)^{2})$$
+$$ \mathcal{N}(x; \mu, \sigma^{2}) = \sqrt{\frac{1}{2\pi\sigma^{2}}} exp(-\frac{1}{2\sigma^{2}}(x - \mu)^{2}) $$
 
-**Precision** $$ \beta = \frac{1}{\sigma^{2}} where \beta \in (0, \infinity) $$ it says how concentrated are the values around the mean rather than how much spread they are. Hence
+**Precision** $$ \beta = \frac{1}{\sigma^{2}} where \beta \in (0, \infinity) $$ : how concentrated are the values around the mean rather than how much spread they are. Hence:
 
 $$ \mathcal{N}(x; \mu, \beta^{-1}) = \sqrt{\frac{\beta}{2\pi} exp(-\frac{1}{2}\beta(x - \mu)^{2}) $$
 
 ##### Exponential and Laplace Distributions
 ##### Dirac delta function
-##### Empirical Distribution function 
+##### Empirical Distribution function
 ##### [Multivariate normal distribution](https://en.wikipedia.org/wiki/Multivariate_normal_distribution)
 ##### [Empirical distribution](https://www.statlect.com/asymptotic-theory/empirical-distribution)
 ##### [Gaussian mixture model](http://research.stowers.org/mcm/efg/R/Statistics/MixturesOfDistributions/index.html), also more on [Scikit](http://scikit-learn.org/stable/modules/mixture.html)
@@ -46,7 +44,6 @@ $$ \mathcal{N}(x; \mu, \beta^{-1}) = \sqrt{\frac{\beta}{2\pi} exp(-\frac{1}{2}\b
 #### Useful Functions ####
 
 ##### Logistics sigmoid:
-$$ $$
 commonly used to produce the phi parameter for beunoulli distribution
 ##### Softplus
 mean and variance for nomal distribution
