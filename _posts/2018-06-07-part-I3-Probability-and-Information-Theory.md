@@ -28,8 +28,7 @@ Bernoulli controlled by a single parameter $$\phi \in [0, 1]$$
 
 $$ \mathcal{N}(x; \mu, \sigma^{2}) = \sqrt{\frac{1}{2\pi\sigma^{2}}} exp(-\frac{1}{2\sigma^{2}}(x - \mu)^{2}) $$
 
-**Precision** 
-$$ \beta = \frac{1}{\sigma^{2}} where \beta \in (0, \infinity) $$
+**Precision** $$ \beta = \frac{1}{\sigma^{2}} where \beta \in (0, \infty) $$
 How concentrated are the values around the mean rather than how much spread they are. Hence:
 
 $$ \mathcal{N}(x; \mu, \beta^{-1}) = \sqrt{\frac{\beta}{2\pi} exp(-\frac{1}{2}\beta(x - \mu)^{2}) $$
@@ -37,11 +36,11 @@ $$ \mathcal{N}(x; \mu, \beta^{-1}) = \sqrt{\frac{\beta}{2\pi} exp(-\frac{1}{2}\b
 ##### Exponential and Laplace Distributions
 ##### Dirac delta function
 ##### Multivariate normal distribution
-![link](https://en.wikipedia.org/wiki/Multivariate_normal_distribution)
+[link](https://en.wikipedia.org/wiki/Multivariate_normal_distribution)
 ##### Empirical distribution
-![link](https://www.statlect.com/asymptotic-theory/empirical-distribution)
+[link](https://www.statlect.com/asymptotic-theory/empirical-distribution)
 ##### Gaussian mixture model
-![link](http://research.stowers.org/mcm/efg/R/Statistics/MixturesOfDistributions/index.html), also more on [Scikit](http://scikit-learn.org/stable/modules/mixture.html)
+[link](http://research.stowers.org/mcm/efg/R/Statistics/MixturesOfDistributions/index.html), also more on [Scikit](http://scikit-learn.org/stable/modules/mixture.html)
 
 ---
 
