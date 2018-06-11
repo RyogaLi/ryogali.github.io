@@ -32,7 +32,7 @@ $$ \mathcal{N}(x; \mu, \sigma^{2}) = \sqrt{\frac{1}{2\pi\sigma^{2}}} exp(-\frac{
 
 $$ \mathcal{N}(x; \mu, \sigma^{2}) = \sqrt{\frac{1}{2\pi\sigma^{2}}} exp(-\frac{1}{2\sigma^{2}}(x - \mu)^{2}) $$
 
-$$ \mathcal{N}(x; \mu, \beta^{-1}) = \sqrt{\frac{\beta}{2\pi} exp(-\frac{1}{2}\beta(x - \mu)^{2}) $$
+$$ \mathcal{N}(x; \mu, \beta^{-1}) $$
 
 
 ##### Exponential and Laplace Distributions
