@@ -37,8 +37,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-06-07-part-I3-Probability-and-Information-Theory.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="149">
-                <caret line="30" column="73" lean-forward="true" selection-start-line="30" selection-start-column="73" selection-end-line="30" selection-end-column="73" />
+              <first_editor relative-caret-position="154">
+                <caret line="30" column="202" lean-forward="false" selection-start-line="30" selection-start-column="202" selection-end-line="30" selection-end-column="202" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -423,7 +423,14 @@
       <option name="project" value="LOCAL" />
       <updated>1528741002818</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="updated equations">
+      <created>1528741183772</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1528741183772</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -597,8 +604,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-06-07-part-I3-Probability-and-Information-Theory.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="149">
-            <caret line="30" column="73" lean-forward="true" selection-start-line="30" selection-start-column="73" selection-end-line="30" selection-end-column="73" />
+          <first_editor relative-caret-position="154">
+            <caret line="30" column="202" lean-forward="false" selection-start-line="30" selection-start-column="202" selection-end-line="30" selection-end-column="202" />
             <folding />
           </first_editor>
           <second_editor />
