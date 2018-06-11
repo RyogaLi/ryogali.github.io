@@ -32,7 +32,7 @@ $$ \mathcal{N}(x; \mu, \sigma^{2}) = \sqrt{\frac{1}{2\pi\sigma^{2}}} exp(-\frac{
 
 
 ##### Exponential Distributions #####
-$$ p(x; \lambda) = \lambda \mathcal(1)_{x\geq 0} exp(-\lamba x) $$
+$$ p(x; \lambda)  $$
 
 ##### Laplace Distributions #####
 $$ \mathcal{N}(x; \mu, \sigma^{2}) $$
