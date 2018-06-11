@@ -28,7 +28,7 @@ Bernoulli controlled by a single parameter $$\phi \in [0, 1]$$
 
 $$ \mathcal{N}(x; \mu, \sigma^{2}) = \sqrt{\frac{1}{2\pi\sigma^{2}}} exp(-\frac{1}{2\sigma^{2}}(x - \mu)^{2}) $$
 
-**Precision** is defined as $ \beta = \frac{1}{\sigma^{2}} $ where $ \beta \in (0, \infty) $ which means how concentrated are the values around the mean rather than how much spread they are. Hence:
+**Precision** is defined as $$ \beta = \frac{1}{\sigma^{2}} $$ where $$ \beta \in (0, \infty) $$ which means how concentrated are the values around the mean rather than how much spread they are. Hence:
 
 $$ \mathcal{N}(x; \mu, \sigma^{2}) = \sqrt{\frac{1}{2\pi\sigma^{2}}} exp(-\frac{1}{2\sigma^{2}}(x - \mu)^{2}) $$
 
