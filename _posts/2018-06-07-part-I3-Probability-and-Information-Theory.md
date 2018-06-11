@@ -30,7 +30,7 @@ $$ \mathcal{N}(x; \mu, \sigma^{2}) = \sqrt{\frac{1}{2\pi\sigma^{2}}} exp(-\frac{
 
 **Precision** is defined as $$ \beta = \frac{1}{\sigma^{2}} $$ where $$ \beta \in (0, \infty) $$ which means how concentrated are the values around the mean rather than how much spread they are. Hence:
 
-$$ \mathcal{N}(x; \mu, \beta^{-1}) = \sqrt{\frac{1}{2\pi\sigma^{2}}} $$
+$$ \mathcal{N}(x; \mu, \beta^{-1}) = \sqrt{\frac{\beta}{2\pi}} $$
 
 
 ##### Exponential and Laplace Distributions
