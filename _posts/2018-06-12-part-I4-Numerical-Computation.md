@@ -8,14 +8,18 @@ tags: [Deep Learning, Machine Learning, Notes]
 
 ---
 
-##### Softmax function #####
+#### Softmax function ####
 *Overflow:* Number with large magnitude are approximated as $$ \infty $$ or $$ -\infty $$.
 
 *Underflow:* Numbers near zero are rounded to zero.
 
-$$ softmax(x)_{i} = \frac{exp(x_{i})}{\sum_{j=1}^{n} exp(x_{j})} $$
+$$ softmax(\mathbf{x})_{i} = \frac{exp(x_{i})}{\sum_{j=1}^{n} exp(x_{j})} $$
 
-This function is often used to predict the probabilities associated with a multinoulli distribution. [wiki](https://en.wikipedia.org/wiki/Softmax_function)
+This function is often used to predict the probabilities associated with a multinoulli distribution. Quote from wiki: 
+> generalization of the logistic function that "squashes" a K-dimensional vector 
+$$ \mathbf {z} $$ of arbitrary real values to a K-dimensional 
+vector $$ \sigma (\mathbf {z} ) $$ of real values, 
+where each entry is in the range (0, 1), and all the entries add up to 1
 
 Example in python:
 

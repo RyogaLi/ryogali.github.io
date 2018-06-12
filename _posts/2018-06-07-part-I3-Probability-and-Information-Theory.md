@@ -32,9 +32,9 @@ $$ \mathcal{N}(x; \mu, \sigma^{2}) = \sqrt{\frac{1}{2\pi\sigma^{2}}} exp(-\frac{
 
 
 ##### Exponential Distributions #####
-$$ p(x; \lambda) = \lambda\mathcal{1}_{x\geq0} exp(-\lambda x)$$
+$$ p(x; \lambda) = \lambda\mathbf{1}_{x\geq0} exp(-\lambda x)$$
 
-The expression $$ \mathcal{1}_{x\geq0} $$ means that the value is 1 when $$ x \geq 0 $$
+The expression $$ \mathbf{1}_{x\geq0} $$ means that the value is 1 when $$ x \geq 0 $$
 
 ##### Laplace Distributions #####
 
