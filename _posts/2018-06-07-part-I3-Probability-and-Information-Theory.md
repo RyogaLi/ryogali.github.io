@@ -68,7 +68,7 @@ A [generalized function](https://en.wikipedia.org/wiki/Generalized_function) whi
 
 $$ \sigma(x) = \frac{1}{1+ exp(-x)} $$
 
-Commonly used to produce the phi parameter for Bernoulli distribution. The function saturates when it's argument \
+Commonly used to produce the phi parameter for Bernoulli distribution. The function saturates when it's argument 
 is very positive or very negative, meaning that the function becomes very flat and insensitive to small changes in its input.
 
 ##### Softplus #####
@@ -88,13 +88,12 @@ $$ P(x \mid y) = \frac{P(x)P(y \mid x)}{P(y)} $$
 ##### Self information #####
 ##### Shannon entropy #####
 
-Used to quantify the amount of uncertainty in an entire probability distribution. The Shannon entropy of a distribution is the expected amount of \
+Used to quantify the amount of uncertainty in an entire probability distribution. The Shannon entropy of a distribution is the expected amount of 
 information in an event drawn from that distribution. [Detail](http://www.ueltschi.org/teaching/chapShannon.pdf)
 
 ##### Kullback-Leibler (KL) divergence #####
 
-Measuring the same random variable in two different distributions [read more](https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence)
-
+Measuring the same random variable in two different distributions. [read more](https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence)
 *Cross entropy* Similar idea
 
 ##### Structured probabilistic mode, or graphical model #####
