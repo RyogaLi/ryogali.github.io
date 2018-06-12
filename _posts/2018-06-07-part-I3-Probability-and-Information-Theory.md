@@ -37,6 +37,7 @@ $$ p(x; \lambda) = \lambda\mathcal{1}_{x\geq0} exp(-\lambda x)$$
 The expression $$ \mathcal{1}_{x\geq0} $$ means that the value is 1 when $$ x \geq 0 $$
 
 ##### Laplace Distributions #####
+
 $$ Laplace(x; \mu, \gamma) = \frac{1}{2 \gamma} exp(-\frac{\mid x - \mu \mid}{\gamma}) $$
 
 $$ \mu $$ defines the sharp peak of probability mass. 
@@ -45,23 +46,48 @@ $$ \mu $$ defines the sharp peak of probability mass.
 
 $$ p(x) = \delta(x - \mu) $$
 
-A generalized function which is zero valued everywhere except 0, integrates to 1. 
+A [generalized function](https://en.wikipedia.org/wiki/Generalized_function) which is zero valued everywhere except 0, integrates to 1. 
 
-##### Multivariate normal distribution ##### [link](https://en.wikipedia.org/wiki/Multivariate_normal_distribution)
-##### Empirical distribution ##### [link](https://www.statlect.com/asymptotic-theory/empirical-distribution)
-##### Gaussian mixture model ##### [link](http://research.stowers.org/mcm/efg/R/Statistics/MixturesOfDistributions/index.html), also more on [Scikit](http://scikit-learn.org/stable/modules/mixture.html)
+##### Multivariate normal distribution #####
+
+[Read more on wikipedia](https://en.wikipedia.org/wiki/Multivariate_normal_distribution)
+
+##### Empirical distribution #####
+
+[This blog post](https://www.statlect.com/asymptotic-theory/empirical-distribution) explained the distribution with code.
+
+##### Gaussian mixture model #####
+ 
+[Explained in R](http://research.stowers.org/mcm/efg/R/Statistics/MixturesOfDistributions/index.html), also more on [Scikit](http://scikit-learn.org/stable/modules/mixture.html)
 
 ---
 
 #### Useful Functions ####
 
 ##### Logistics sigmoid #####
-commonly used to produce the phi parameter for beunoulli distribution
+
+$$ \sigma(x) = \frac{1}{1+ exp(-x)} $$
+
+Commonly used to produce the phi parameter for Bernoulli distribution. The function saturates when it's argument \
+is very positive or very negative, meaning that the function becomes very flat and insensitive to small changes in its input.
+
 ##### Softplus #####
-mean and variance for nomal distribution
-* Information theory
-* Self information:
-* Shannon entropy
-* Kullback-Leibler (KL) divergence: measuring the same random variable in two different distributions [read more](https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence)
+
+$$ \zeta(x) = log(1 + exp(x)) $$
+
+The range is $$ (0, \infty) $$. Useful for producing mean and variance for nomal distribution.
+
+##### Bayes' Rule #####
+
+$$ P(x \mid y) = \frac{P(x)P(y \mid x)}{P(y)} $$
+
+---
+
+#### Information theory ####
+
+##### Self information #####
+##### Shannon entropy #####
+##### Kullback-Leibler (KL) divergence #####
+measuring the same random variable in two different distributions [read more](https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence)
 * Cross entropy
 * Structured probabilistic mode, or graphical model
