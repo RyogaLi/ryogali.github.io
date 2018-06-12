@@ -18,11 +18,13 @@ $$ softmax(x)_{i} = \frac{exp(x_{i})}{\sum_{j=1}^{n} exp(x_{j})} $$
 This function is often used to predict the probabilities associated with a multinoulli distribution. [wiki](https://en.wikipedia.org/wiki/Softmax_function)
 
 Example in python:
-    
-    import math
-    z = [1,2,3,4] # vector
-    z_exp = [math.exp(i) for i in z] # calculate exp(i) for each element in z
-    
-    sum_z_exp = sum(z_exp) # sum over
-    softmax = [round(i / sum_z_exp, 3) for i in z_exp] 
+
+{% highlight python %}
+import math
+z = [1,2,3,4] # vector
+z_exp = [math.exp(i) for i in z] # calculate exp(i) for each element in z
+
+sum_z_exp = sum(z_exp) # sum over
+softmax = [round(i / sum_z_exp, 3) for i in z_exp] 
+{% endhighlight %}
 
