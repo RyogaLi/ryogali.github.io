@@ -4,6 +4,7 @@
     <list default="true" id="cd68d1c7-b462-4f6e-8a29-c118cdc0ee23" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2018-06-12-part-I4-Numerical-Computation.md" afterPath="$PROJECT_DIR$/_posts/2018-06-12-part-I4-Numerical-Computation.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/search.html" afterPath="$PROJECT_DIR$/pages/search.html" />
     </list>
     <ignored path="my-git-page.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,15 +47,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-06-12-part-I4-Numerical-Computation.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2018-06-12-part-I4-Numerical-Computation.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2018-06-12-part-I4-Numerical-Computation.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="364">
-                <caret line="51" column="2" lean-forward="true" selection-start-line="51" selection-start-column="2" selection-end-line="51" selection-end-column="2" />
+              <first_editor relative-caret-position="138">
+                <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/search.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -123,6 +134,7 @@
         <option value="$PROJECT_DIR$/css/blog.css" />
         <option value="$PROJECT_DIR$/_posts/2018-06-07-part-I3-Probability-and-Information-Theory.md" />
         <option value="$PROJECT_DIR$/_posts/2018-06-12-part-I4-Numerical-Computation.md" />
+        <option value="$PROJECT_DIR$/pages/search.html" />
       </list>
     </option>
   </component>
@@ -156,6 +168,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="08_ryogali.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="08_ryogali.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="08_ryogali.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -612,7 +638,14 @@
       <option name="project" value="LOCAL" />
       <updated>1528838435524</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="test matrix">
+      <created>1528839692509</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1528839692509</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -685,14 +718,14 @@
     <MESSAGE value="test py highlight" />
     <MESSAGE value="updated pI4" />
     <MESSAGE value="test align center" />
-    <option name="LAST_COMMIT_MESSAGE" value="test align center" />
+    <MESSAGE value="test matrix" />
+    <option name="LAST_COMMIT_MESSAGE" value="test matrix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_layout/default.html" />
     <entry file="file://$PROJECT_DIR$/_includes/header.html" />
     <entry file="file://$PROJECT_DIR$/_includes/head.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -836,11 +869,19 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-06-12-part-I4-Numerical-Computation.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="364">
-            <caret line="51" column="2" lean-forward="true" selection-start-line="51" selection-start-column="2" selection-end-line="51" selection-end-column="2" />
+          <first_editor relative-caret-position="138">
+            <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>

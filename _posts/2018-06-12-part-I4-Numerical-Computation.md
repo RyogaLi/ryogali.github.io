@@ -52,9 +52,11 @@ Def: A scalar $$ \lambda $$ is called an eighenvalue of the $$ n \times n $$ mat
   
   $$ det(A - \lambda I) = 0 $$
  
+ Where $$ I $$ is the $$ 3 \times 3 $$ identity matrix.
+ 
  Hence:
  
- $$ A - \lambda I = $$
+ $$ A - \lambda I = \begin{bmatrix} 1 & -3 & 3 \\ 3 & -5 & 3 \\ 6 & -6 & 4 \end{bmatrix} - \begin{bmatrix} \lambda & 0 & 0 \\ 0 & \lambda & 0 \\ 0 & 0 & \lambda \end{bmatrix} $$
  
 * Condition number: 
 
