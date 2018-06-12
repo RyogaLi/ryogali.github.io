@@ -32,12 +32,21 @@ $$ \mathcal{N}(x; \mu, \sigma^{2}) = \sqrt{\frac{1}{2\pi\sigma^{2}}} exp(-\frac{
 
 
 ##### Exponential Distributions #####
-$$ p(x; \lambda)  $$
+$$ p(x; \lambda) = \lambda\mathcal{1}_{x\geq0} exp(-\lambda x)$$
+
+The expression $$ \mathcal{1}_{x\geq0} $$ means that the value is 1 when $$ x \geq 0 $$
 
 ##### Laplace Distributions #####
-$$ \mathcal{N}(x; \mu, \sigma^{2}) $$
+$$ Laplace(x; \mu, \gamma) = \frac{1}{2 \gamma} exp(-\frac{\mid x - \mu \mid}{\gamma}) $$
+
+$$ \mu $$ defines the sharp peak of probability mass. 
 
 ##### Dirac delta function #####
+
+$$ p(x) = \delta(x - \mu) $$
+
+A generalized function which is zero valued everywhere except 0, integrates to 1. 
+
 ##### Multivariate normal distribution ##### [link](https://en.wikipedia.org/wiki/Multivariate_normal_distribution)
 ##### Empirical distribution ##### [link](https://www.statlect.com/asymptotic-theory/empirical-distribution)
 ##### Gaussian mixture model ##### [link](http://research.stowers.org/mcm/efg/R/Statistics/MixturesOfDistributions/index.html), also more on [Scikit](http://scikit-learn.org/stable/modules/mixture.html)
