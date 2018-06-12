@@ -37,8 +37,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-06-07-part-I3-Probability-and-Information-Theory.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="398">
-                <caret line="86" column="28" lean-forward="false" selection-start-line="86" selection-start-column="28" selection-end-line="86" selection-end-column="28" />
+              <first_editor relative-caret-position="534">
+                <caret line="103" column="71" lean-forward="true" selection-start-line="103" selection-start-column="71" selection-end-line="103" selection-end-column="71" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -493,7 +493,21 @@
       <option name="project" value="LOCAL" />
       <updated>1528819406472</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="updated equations">
+      <created>1528819709895</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1528819709895</updated>
+    </task>
+    <task id="LOCAL-00029" summary="updated equations">
+      <created>1528819861809</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1528819861809</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -667,8 +681,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-06-07-part-I3-Probability-and-Information-Theory.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="398">
-            <caret line="86" column="28" lean-forward="false" selection-start-line="86" selection-start-column="28" selection-end-line="86" selection-end-column="28" />
+          <first_editor relative-caret-position="534">
+            <caret line="103" column="71" lean-forward="true" selection-start-line="103" selection-start-column="71" selection-end-line="103" selection-end-column="71" />
             <folding />
           </first_editor>
           <second_editor />

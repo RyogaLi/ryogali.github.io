@@ -87,7 +87,18 @@ $$ P(x \mid y) = \frac{P(x)P(y \mid x)}{P(y)} $$
 
 ##### Self information #####
 ##### Shannon entropy #####
+
+Used to quantify the amount of uncertainty in an entire probability distribution. The Shannon entropy of a distribution is the expected amount of \
+information in an event drawn from that distribution. [Detail](http://www.ueltschi.org/teaching/chapShannon.pdf)
+
 ##### Kullback-Leibler (KL) divergence #####
-measuring the same random variable in two different distributions [read more](https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence)
-* Cross entropy
-* Structured probabilistic mode, or graphical model
+
+Measuring the same random variable in two different distributions [read more](https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence)
+
+*Cross entropy* Similar idea
+
+##### Structured probabilistic mode, or graphical model #####
+
+*Directed models:* represent factorizations into conditional probability distributions. 
+
+*Undirected models:* represent factorizations into a set of functions. 
