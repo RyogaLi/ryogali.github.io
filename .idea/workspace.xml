@@ -49,9 +49,9 @@
       <file leaf-file-name="2018-06-12-part-I4-Numerical-Computation.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2018-06-12-part-I4-Numerical-Computation.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="494">
-                <caret line="38" column="21" lean-forward="false" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="591">
+                <caret line="56" column="20" lean-forward="false" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -589,7 +589,21 @@
       <option name="project" value="LOCAL" />
       <updated>1528829830334</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="updated pI4">
+      <created>1528836724691</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1528836724691</updated>
+    </task>
+    <task id="LOCAL-00035" summary="test align center">
+      <created>1528838232972</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1528838232972</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -660,7 +674,9 @@
     <MESSAGE value="Finished part1-3" />
     <MESSAGE value="added to part I4" />
     <MESSAGE value="test py highlight" />
-    <option name="LAST_COMMIT_MESSAGE" value="test py highlight" />
+    <MESSAGE value="updated pI4" />
+    <MESSAGE value="test align center" />
+    <option name="LAST_COMMIT_MESSAGE" value="test align center" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -798,9 +814,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-06-12-part-I4-Numerical-Computation.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="494">
-            <caret line="38" column="21" lean-forward="false" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="591">
+            <caret line="56" column="20" lean-forward="false" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
             <folding />
           </first_editor>
           <second_editor />

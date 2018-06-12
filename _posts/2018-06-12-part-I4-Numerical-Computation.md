@@ -35,6 +35,7 @@ softmax = [round(i / sum_z_exp, 3) for i in z_exp]
 #### Poor conditioning ####
 
 Consider the function $$ f(\mathbf{x}) = \mathbf{A}^{-1} \mathbf{x} $$. When $$ \mathbf{A} \in \mathbb{R} $$ has an eigenvalue decomposition, its condition number is $$ \mathop{max}_{\textbf{i, j}} \mid \frac{\lambda_i}{\lambda_j} $$.
+
 * Eigenvalue / eigenvector
 Def: A scalar $$ \lambda $$ is called an eighenvalue of the $$ n \times n $$ matrix A is there is a notrivial
  solution $$ \mathbf{x} $$ of $$ A\mathbf{x} = \lambda\mathbf{x}$$. Such an $$ \mathbf{x} $$ is called an eigenvector 
@@ -42,12 +43,18 @@ Def: A scalar $$ \lambda $$ is called an eighenvalue of the $$ n \times n $$ mat
  
  Example: If we have a matrix A
  
- <center> $$ A = \begin{bmatrix} 1 & -3 & 3 \\3 & -5 & 3 \\ 6 & -6 & 4 \end{bmatrix}$$ </center>
+ <center> 
+ $$ A = \begin{bmatrix} 1 & -3 & 3 \\3 & -5 & 3 \\ 6 & -6 & 4 \end{bmatrix} $$ 
+ </center>
  
  To find the eigenvalues and eighenvectors of A, we find the values of $$ \lambda $$ which satisfy
-  the characteristic equation of the matrix A, namely those values of 
+  the characteristic equation of the matrix A, namely those values of $$ \lambda $$ for which
+  
+  $$ det(A - \lambda I) = 0 $$
  
+ Hence:
  
+ $$ A - \lambda I = $$
  
 * Condition number: 
 
