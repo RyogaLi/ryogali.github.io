@@ -42,7 +42,7 @@ Def: A scalar $$ \lambda $$ is called an eighenvalue of the $$ n \times n $$ mat
  solution $$ \mathbf{x} $$ of $$ A\mathbf{x} = \lambda\mathbf{x}$$. Such an $$ \mathbf{x} $$ is called an eigenvector 
  corresponding o the eigenvalue $$ \lambda $$
  
- Example: If we have a matrix A
+ **Example:** If we have a matrix A
  
   
  $$ A = \begin{bmatrix} 1 & -3 & 3 \\ 3 & -5 & 3 \\ 6 & -6 & 4 \end{bmatrix} $$ 
@@ -62,7 +62,7 @@ Def: A scalar $$ \lambda $$ is called an eighenvalue of the $$ n \times n $$ mat
  \begin{bmatrix} 1 - \lambda & -3 & 3 \\ 3 & -5 - \lambda & 3 \\ 6 & -6 & 4 - \lambda \end{bmatrix} 
  $$
  
- [How to calculate the determinant of a 3 x 3 matrix? ](https://www.wikihow.com/Find-the-Determinant-of-a-3X3-Matrix)
+ ([How to calculate the determinant of a 3 x 3 matrix? ](https://www.wikihow.com/Find-the-Determinant-of-a-3X3-Matrix))
  
  Therefore:
  
@@ -72,8 +72,14 @@ Def: A scalar $$ \lambda $$ is called an eighenvalue of the $$ n \times n $$ mat
  
  $$ \lambda^{3} - 12 \lambda - 16 = 0 $$
  
+ We get the eigenvalues of $$ A $$ are $$ \lambda = 4, -2 $$
  
+ **Example in python:**
+ {% highlight python %}
+ import numpy as np
+ \# to calculate the eigenvalues of a square array A
  
+ {% endhighlight %}
  
 * Condition number: 
 
