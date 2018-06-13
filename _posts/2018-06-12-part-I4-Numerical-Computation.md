@@ -34,7 +34,7 @@ softmax = [round(i / sum_z_exp, 3) for i in z_exp]
 
 #### Poor conditioning ####
 
-Consider the function $$ f(\mathbf{x}) = \mathbf{A}^{-1} \mathbf{x} $$. When $$ \mathbf{A} \in \mathbb{R} $$ has an eigenvalue decomposition, its condition number is $$ \mathop{max}_{\textbf{i, j}} \mid \frac{\lambda_i}{\lambda_j} $$.
+Consider the function $$ f(\mathbf{x}) = \mathbf{A}^{-1} \mathbf{x} $$. When $$ \mathbf{A} \in \mathbb{R}^{n \times n} $$ has an eigenvalue decomposition, its condition number is $$ \mathop{max}_{\textbf{i, j}} \mid \frac{\lambda_i}{\lambda_j} $$.
 
 * Eigenvalue / eigenvector
 
@@ -48,15 +48,32 @@ Def: A scalar $$ \lambda $$ is called an eighenvalue of the $$ n \times n $$ mat
  $$ A = \begin{bmatrix} 1 & -3 & 3 \\ 3 & -5 & 3 \\ 6 & -6 & 4 \end{bmatrix} $$ 
  
  To find the eigenvalues and eighenvectors of A, we find the values of $$ \lambda $$ which satisfy
-  the characteristic equation of the matrix A, namely those values of $$ \lambda $$ for which
+  the [characteristic equation](http://mathworld.wolfram.com/CharacteristicEquation.html) of the matrix A, namely those values of $$ \lambda $$ for which
   
   $$ det(A - \lambda I) = 0 $$
  
- Where $$ I $$ is the $$ 3 \times 3 $$ identity matrix.
+ Where $$ I $$ is the $$ 3 \times 3 $$ identity matrix. The solution $$\lambda$$ of the charateristic equation are called eigenvalues. 
+ The polynomial left-hand side of the characteristic equation is known as the characteristic polynomial.
  
  Hence:
  
- $$ A - \lambda I = \begin{bmatrix} 1 & -3 & 3 \\ 3 & -5 & 3 \\ 6 & -6 & 4 \end{bmatrix} - \begin{bmatrix} \lambda & 0 & 0 \\ 0 & \lambda & 0 \\ 0 & 0 & \lambda \end{bmatrix} $$
+ $$ 
+ A - \lambda I = \begin{bmatrix} 1 & -3 & 3 \\ 3 & -5 & 3 \\ 6 & -6 & 4 \end{bmatrix} - \begin{bmatrix} \lambda & 0 & 0 \\ 0 & \lambda & 0 \\ 0 & 0 & \lambda \end{bmatrix} = 
+ \begin{bmatrix} 1 - \lambda & -3 & 3 \\ 3 & -5 - \lambda & 3 \\ 6 & -6 & 4 - \lambda \end{bmatrix} 
+ $$
+ 
+ [How to calculate the determinant of a 3 x 3 matrix? ](https://www.wikihow.com/Find-the-Determinant-of-a-3X3-Matrix)
+ 
+ Therefore:
+ 
+ $$ det(A - \lambda I) = - \lambda^{3} + 12\lambda + 16 $$
+ 
+ To solve:
+ 
+ $$ \lambda^{3} - 12 \lambda - 16 = 0 $$
+ 
+ 
+ 
  
 * Condition number: 
 
