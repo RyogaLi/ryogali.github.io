@@ -92,3 +92,8 @@ This is the ratio of the mgnitude of the largest and smallest eigenvalue. When t
 Objective function (criterion); Cost function, loss function, or error function.
 
 We often denote the value that minizes or maximizes a function with a superscript $$ * $$. i.e: $$ \mathbf(x)^{*} = argminf(\mathbf{x})$$
+
+Suppose we have a function $$ y = f(x) $$, $$ f(x+\epsilon) \approx f(x) + \epsilon f\prime(x) $$. The idea of **gradient** descent is 
+that if we know $$ f(x - \epsilon sign(f\prime(x)) $$ is less than $$ f(x) $$ for small enough $$\epsilon$$, we can reduce $$f(x)$$ by
+moving $$x$$ in small setps with the opposite sign of the derivative.
+
