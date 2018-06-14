@@ -43,11 +43,10 @@ Def: A scalar $$ \lambda $$ is called an eighenvalue of the $$ n \times n $$ mat
  corresponding o the eigenvalue $$ \lambda $$
  
  **Example:** If we have a matrix A
- 
   
  $$ A = \begin{bmatrix} 1 & -3 & 3 \\ 3 & -5 & 3 \\ 6 & -6 & 4 \end{bmatrix} $$ 
  
- To find the eigenvalues and eighenvectors of A, we find the values of $$ \lambda $$ which satisfy
+ To find the eigenvalues of A, we find the values of $$ \lambda $$ which satisfy
   the [characteristic equation](http://mathworld.wolfram.com/CharacteristicEquation.html) of the matrix A, namely those values of $$ \lambda $$ for which
   
   $$ det(A - \lambda I) = 0 $$
@@ -74,13 +73,22 @@ Def: A scalar $$ \lambda $$ is called an eighenvalue of the $$ n \times n $$ mat
  
  We get the eigenvalues of $$ A $$ are $$ \lambda = 4, -2 $$
  
+ To find the eigenvectors of A, we know that for each eigenvalue $$\lambda$$ we have $$ (A - \lambda I)\mathbf{x} = 0$$, 
+ where $$x$$ is the eigenvector associated with eigenvalue $$ \lambda $$.
+ 
+ 
  **Example in python:**
  {% highlight python %}
  import numpy as np
- \# to calculate the eigenvalues of a square array A
- 
+ # to calculate the eigenvalues of a square array A
+ values, vectors = np.linalg.eig(A)
  {% endhighlight %}
  
-* Condition number: 
+* Condition number: Conditioning referes to how rapidly a function changes with respect to small changes in its inputs. 
+This is the ratio of the mgnitude of the largest and smallest eigenvalue. When this number is large, matrix inversion is particularly sensitive to error in the input.
 
+#### Gradient-Based Input ####
 
+Objective function (criterion); Cost function, loss function, or error function.
+
+We often denote the value that minizes or maximizes a function with a superscript $$ * $$. i.e: $$ \mathbf(x)^{*} = argminf(\mathbf{x})$$
