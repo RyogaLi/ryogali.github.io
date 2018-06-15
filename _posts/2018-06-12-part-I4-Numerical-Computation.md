@@ -106,5 +106,9 @@ $$ f(x, y) = f_{y}(x) = x^{2} + xy + y^{2} $$
 A function $$ f_{a} $$ which traces a curve $$ x^{2} + ax + a^{2} $$ on the $$xz$$ plane. Now $$a$$ is a constant, so $$f_{a}$$ is a function of only one real variable and the derivative
 of this function is:
 
-$$f'_{a}$$
+$$f'_{a} = 2x + a$$
+
+So in this case, the above equation can be performed for any choice of $$a$$:
+
+$\frac{\partial}{\partial x_{i} f(x)$
 
