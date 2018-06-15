@@ -32,6 +32,8 @@ sum_z_exp = sum(z_exp) # sum over
 softmax = [round(i / sum_z_exp, 3) for i in z_exp] 
 {% endhighlight %}
 
+---
+
 #### Poor conditioning ####
 
 Consider the function $$ f(\mathbf{x}) = \mathbf{A}^{-1} \mathbf{x} $$. When $$ \mathbf{A} \in \mathbb{R}^{n \times n} $$ has an eigenvalue decomposition, its condition number is $$ \mathop{max}_{\textbf{i, j}} \mid \frac{\lambda_i}{\lambda_j} $$.
@@ -87,6 +89,8 @@ Def: A scalar $$ \lambda $$ is called an eighenvalue of the $$ n \times n $$ mat
 * Condition number: Conditioning referes to how rapidly a function changes with respect to small changes in its inputs. 
 This is the ratio of the mgnitude of the largest and smallest eigenvalue. When this number is large, matrix inversion is particularly sensitive to error in the input.
 
+---
+
 #### Gradient-Based Input ####
 
 Objective function (criterion); Cost function, loss function, or error function.
@@ -138,6 +142,8 @@ $$\triangledown_{v} f(\mathbf{x}) = \triangledown f(\mathbf{x}) \cdot \mathbf{v}
 Intuitively, the directional derivative of $$f$$ at a point $$\mathbf{x}$$ represents the rate of change of f, 
 in the direction of $$\mathbf{v}$$ with respect to time, when moving past $$\mathbf{x}$$.
 
+
+--- 
 
 #### Jacobian and Hessian Matrices ####
 

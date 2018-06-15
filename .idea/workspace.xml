@@ -47,8 +47,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-06-12-part-I4-Numerical-Computation.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="432">
-                <caret line="137" column="45" lean-forward="false" selection-start-line="137" selection-start-column="45" selection-end-line="137" selection-end-column="45" />
+              <first_editor relative-caret-position="500">
+                <caret line="146" column="0" lean-forward="true" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -733,7 +733,14 @@
       <option name="project" value="LOCAL" />
       <updated>1529089489587</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="edited Part I4">
+      <created>1529093987431</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1529093987431</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TodoView">
@@ -972,8 +979,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-06-12-part-I4-Numerical-Computation.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="432">
-            <caret line="137" column="45" lean-forward="false" selection-start-line="137" selection-start-column="45" selection-end-line="137" selection-end-column="45" />
+          <first_editor relative-caret-position="500">
+            <caret line="146" column="0" lean-forward="true" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
