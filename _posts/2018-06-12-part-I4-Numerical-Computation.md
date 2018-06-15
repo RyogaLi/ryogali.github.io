@@ -9,9 +9,9 @@ tags: [Deep Learning, Machine Learning, Notes]
 ---
 
 #### Softmax function ####
-*Overflow:* Number with large magnitude are approximated as $$ \infty $$ or $$ -\infty $$.
+**Overflow:** Number with large magnitude are approximated as $$ \infty $$ or $$ -\infty $$.
 
-*Underflow:* Numbers near zero are rounded to zero.
+**Underflow:** Numbers near zero are rounded to zero.
 
 $$ softmax(\mathbf{x})_{i} = \frac{exp(x_{i})}{\sum_{j=1}^{n} exp(x_{j})} $$
 
@@ -93,7 +93,7 @@ Objective function (criterion); Cost function, loss function, or error function.
 
 We often denote the value that minizes or maximizes a function with a superscript $$ * $$. i.e: $$ \mathbf(x)^{*} = argminf(\mathbf{x})$$
 
-Suppose we have a function $$ y = f(x) $$, $$ f(x+\epsilon) \approx f(x) + \epsilon f\prime(x) $$. The idea of **gradient descent** is 
+Suppose we have a function $$ y = f(x) $$, $$ f(x+\epsilon) \approx f(x) + \epsilon f'(x) $$. The idea of **gradient descent** is 
 that if we know $$ f(x - \epsilon sign(f\prime(x)) $$ is less than $$ f(x) $$ for small enough $$\epsilon$$, we can reduce $$f(x)$$ by
 moving $$x$$ in small setps with the opposite sign of the derivative.
 
@@ -129,7 +129,7 @@ Lets say we have a scalar function $$f(x)= f(x_{1}, x_{2}, ...,x_{n})$$ along a 
 
 is the function $$\triangledown_{v}f$$ defined by the limit:
 
-$$\triangledown_{v} f(\mathbf{x}) = \lim_{h \rightarrow 0}{\frac{f(\bold{x} + h\bold{v}) - f(\bold{x})}{h}}.$$
+$$\triangledown_{v} f(\mathbf{x}) = \lim_{h \rightarrow 0}{\frac{f(\bold{x} + h\bold{v}) - f(\bold{x})}{h}}$$
 
 If the function $$f$$ is differentiable at $$\mathbf{x}$$, then the directional derivative exists along any vector $$\mathbf{v}$$, and one has
 
@@ -139,4 +139,7 @@ Intuitively, the directional derivative of $$f$$ at a point $$\mathbf{x}$$ repre
 in the direction of $$\mathbf{v}$$ with respect to time, when moving past $$\mathbf{x}$$.
 
 
+#### Jacobian and Hessian Matrices ####
 
+**Jacobian Matrix:** If we have a function $$f : \mathbb{R}^{m} \rightarrow \mathbb{R} $$, then the Jacobian matrix $$J \in \mathbb{R}^{n\times m}$$ of $$f$$ is defined such that 
+$$J_{i, j} = \frac{\partial }{\partial x_j}f(x)$$
