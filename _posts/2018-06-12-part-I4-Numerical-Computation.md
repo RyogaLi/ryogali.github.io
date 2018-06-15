@@ -93,7 +93,18 @@ Objective function (criterion); Cost function, loss function, or error function.
 
 We often denote the value that minizes or maximizes a function with a superscript $$ * $$. i.e: $$ \mathbf(x)^{*} = argminf(\mathbf{x})$$
 
-Suppose we have a function $$ y = f(x) $$, $$ f(x+\epsilon) \approx f(x) + \epsilon f\prime(x) $$. The idea of **gradient** descent is 
+Suppose we have a function $$ y = f(x) $$, $$ f(x+\epsilon) \approx f(x) + \epsilon f\prime(x) $$. The idea of **gradient descent** is 
 that if we know $$ f(x - \epsilon sign(f\prime(x)) $$ is less than $$ f(x) $$ for small enough $$\epsilon$$, we can reduce $$f(x)$$ by
 moving $$x$$ in small setps with the opposite sign of the derivative.
+
+**Partial derivatives:** $$ \frac{\partial}{\partial x_{i} f(x) $$ measures how $$f$$ changes as only the variable $$x_i$$ increases at point $$x$$.
+
+Some basic math ... 
+
+$$ f(x, y) = f_{y}(x) = x^{2} + xy + y^{2} $$
+
+A function $$ f_{a} $$ which traces a curve $$ x^{2} + ax + a^{2} $$ on the $$xz$$ plane. Now $$a$$ is a constant, so $$f_{a}$$ is a function of only one real variable and the derivative
+of this function is:
+
+$$f'_{a}$$
 
