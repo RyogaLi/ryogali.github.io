@@ -110,5 +110,24 @@ $$f'_{a} = 2x + a$$
 
 So in this case, the above equation can be performed for any choice of $$a$$:
 
-$\frac{\partial}{\partial x_{i}}f(x)$
+$$\frac{\partial }{\partial x}f(x, y) = 2x + y$$
 
+If we have a scalar-valued function $$f(x_{1}, ..., x_{n})$$ on a domain in Euclidean space $$ \mathbb{R}^{n} $$. In this 
+case $$f$$ has a partial derivative $$\frac{\partial }{\partial x_{j}}$$with respect to each variable $$x_{j}$$, these partial derivatives define the vector
+**gradient of a**:
+
+$$\triangledown f(a) = (\frac{\partial }{\partial x_{1}}f(a), ..., \frac{\partial }{\partial x_{n}}f(a))$$
+
+In multidimensions, **critical points** are points where evvery element of the gradient is equal to zero.
+
+**Directional derivative** is the derivative of the function $$f(\mathbf{x}+\alpha\mathbf{u})$$ with respect to $$\alpha$$.
+
+More basic math ...
+
+Lets say we have a scalar function $$f(x)= f(x_{1}, x_{2}, ...,x_{n})$$ along a vector $$\mathbf{v} = (v_{1}, v_{2}, ...,v_{n})$$
+
+is the function $$\triangledown_{v}f$$ defined by the limit:
+
+$$\triangledown_{v} f(\mathbf{x}) = $$
+
+If the function f is differentiable at x
