@@ -97,7 +97,7 @@ Suppose we have a function $$ y = f(x) $$, $$ f(x+\epsilon) \approx f(x) + \epsi
 that if we know $$ f(x - \epsilon sign(f\prime(x)) $$ is less than $$ f(x) $$ for small enough $$\epsilon$$, we can reduce $$f(x)$$ by
 moving $$x$$ in small setps with the opposite sign of the derivative.
 
-**Partial derivatives:** $$ \frac{\partial}{\partial x_{i} f(x) $$ measures how $$f$$ changes as only the variable $$x_i$$ increases at point $$x$$.
+**Partial derivatives:** $$ \frac{\partial}{\partial x_{i}} f(x) $$ measures how $$f$$ changes as only the variable $$x_i$$ increases at point $$x$$.
 
 Some basic math ... 
 
@@ -110,5 +110,5 @@ $$f'_{a} = 2x + a$$
 
 So in this case, the above equation can be performed for any choice of $$a$$:
 
-$\frac{\partial}{\partial x_{i} f(x)$
+$\frac{\partial}{\partial x_{i}}f(x)$
 
