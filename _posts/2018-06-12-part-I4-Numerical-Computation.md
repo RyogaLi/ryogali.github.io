@@ -142,7 +142,6 @@ $$\triangledown_{v} f(\mathbf{x}) = \triangledown f(\mathbf{x}) \cdot \mathbf{v}
 Intuitively, the directional derivative of $$f$$ at a point $$\mathbf{x}$$ represents the rate of change of f, 
 in the direction of $$\mathbf{v}$$ with respect to time, when moving past $$\mathbf{x}$$.
 
-
 --- 
 
 #### Jacobian and Hessian Matrices ####
