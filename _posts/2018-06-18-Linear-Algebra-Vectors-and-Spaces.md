@@ -42,7 +42,9 @@ If $$ V $$ is a subspace of $$\mathbb{R}^{n}$$:
 
 Span of n vectors is a valid subspace of $$\mathbb{R}^{n}$$
 
-Let $$V = Span(\overrightharpoon{v_{1}}, \overrightharpoon{v_{2}}, ..., \overrightharpoon{v_{n}}) and $$ S = \{ \overrightharpoon{v_{1}}, \overrightharpoon{v_{2}}, ..., \overrightharpoon{v_{n}} \}, 
+Let $$V = Span(\overrightharpoon{v_{1}}, \overrightharpoon{v_{2}}, ..., \overrightharpoon{v_{n}}) $$ and $$ S = \{ \overrightharpoon{v_{1}}, \overrightharpoon{v_{2}}, ..., \overrightharpoon{v_{n}} \}$$, 
 we say that $$S$$ is a basis for $$V$$.
+
+
 
 
