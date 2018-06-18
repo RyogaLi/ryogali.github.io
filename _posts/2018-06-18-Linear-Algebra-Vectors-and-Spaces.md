@@ -27,5 +27,10 @@ $$Span(S) = \mathbb{R}^{3}$$.
 **Linear Independent** means that $$a, b and c$$ in equation 2 are all 0. Now we can substitute the 0s to the representations of 
 $$c_{1}, c_{2} and c_{3}$$, the rule is that if at least one $$c_{i}$$ is non-zero, the vectors are linearly dependent.
 
-In this case (not going to the details), $$c_{1}, c_{2} and c_{3}$$ are all zeros in order to get the zero vector. Hence the vectors are linearly independent.
+In this case (not go in to the details), $$c_{1}, c_{2} and c_{3}$$ are all zeros in order to get the zero vector. Hence the vectors are linearly independent.
+
+**If there are three vectors and they span $$\mathbb{R}^{3}$$, they are linearly independent of each other (and vice versa)**
+
+---
+
 
