@@ -23,8 +23,8 @@ $$ c_{1} \begin{bmatrix}1 \\-1 \\2  \end{bmatrix} + c_{2} \begin{bmatrix}2 \\1 \
 
 Now if we use algebra and solve for $$c_{1}, c_{2}, c_{3}$$, we can proof that $$Span(S) = \mathbb{R}^{3}$$.
 
-**Linear Independent** means that $$a, b and c$$ are all 0. Now we can substitute the 0s to the representations of 
-$$c_{1}, c_{2} and c_{3}$$, the rule is that if at least one $$c_{i}$$ is non-zero, the vectors are linearly dependent.
+**Linear Independent** means that $$a, b, c$$ are all 0. Now we can substitute the 0s to the representations of 
+$$c_{1}, c_{2}, c_{3}$$, the rule is that if at least one $$c_{i}$$ is non-zero, the vectors are linearly dependent.
 
 In this case (not go in to the details), $$c_{1}, c_{2}, c_{3}$$ are all zeros in order to get the zero vector. Hence the vectors are linearly independent.
 
