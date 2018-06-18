@@ -37,8 +37,8 @@ In this case (not go in to the details), $$c_{1}, c_{2}, c_{3}$$ are all zeros i
 If $$ V $$ is a subspace of $$\mathbb{R}^{n}$$:
 
 * $$ V $$ contains the $$\mathbf{0}$$ vector
-* $$\overrightharpoon{x}$$ in $$V$$, $$c\overrightharpoon{x}$$ in $$V$$
-
+* **Closure under scalar multiplication**: $$\overrightharpoon{x}$$ in $$V$$, $$c\overrightharpoon{x}$$ in $$V$$ 
+* **Closure under addition**: $$\overrightharpoon{a}$$ in $$V$$ and $$\overrightharpoon{b}$$ in $$V$$ then $$\overrightharpoon{a} + \overrightharpoon{a}$$ in $$V$$
 
 
 
