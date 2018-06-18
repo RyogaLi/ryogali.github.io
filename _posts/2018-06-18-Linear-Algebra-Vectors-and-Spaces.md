@@ -10,7 +10,7 @@ find $$c_{1}v_{1} + c_{2}v_{2} + .. + c_{n}v_{n} = $$ **0**, where at least one 
 
 Example:
 
-$$ S = \left\{ \begin{bmatrix}1 \\-1 \\2  \end{bmatrix}, \begin{bmatrix}2 \\1 \\3  \end{bmatrix}, \begin{bmatrix}-1 \\0 \\2  \end{bmatrix} \right\} $$
+Lets say we have a set of vectors $$ S = \left\{ \begin{bmatrix}1 \\-1 \\2  \end{bmatrix}, \begin{bmatrix}2 \\1 \\3  \end{bmatrix}, \begin{bmatrix}-1 \\0 \\2  \end{bmatrix} \right\} $$
 
 We want to find out if $$Span(x) = \mathbb{R}^{3} $$ and if they are linearly independent.
 
