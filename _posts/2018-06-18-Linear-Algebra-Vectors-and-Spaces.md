@@ -53,3 +53,8 @@ The **Length** of a vector $$\overrightharpoon{a}$$ is defined as:
 
 $$\lVert \overrightharpoon{a} \rVert = \sqrt{a_{1}^2 + a_{2}^2 + ... + a_{n}^2}$$
 
+**Proof of the Cauchy Schwarz inequality**
+
+If we have $$\overrightharpoon{v_{2}}, \overrightharpoon{v_{2}} \in \mathbb{R}^{n}$$:
+
+\begin{cases} |\overrightharpoon{x} \cdot \overrightharpoon{y}| \leq ||\overrightharpoon{x}|| ||\overrightharpoon{y}|| \end{cases}
