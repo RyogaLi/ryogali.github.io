@@ -57,4 +57,4 @@ $$\lVert \overrightharpoon{a} \rVert = \sqrt{a_{1}^2 + a_{2}^2 + ... + a_{n}^2}$
 
 If we have $$\overrightharpoon{x}, \overrightharpoon{y} \in \mathbb{R}^{n}$$:
 
-$$ \begin{cases} \shortmid \overrightharpoon{x} \cdot \overrightharpoon{y} \shortmid \leq \shortmid\overrightharpoon{x}\shortmid \shortmid\overrightharpoon{y}\shortmid \end{cases} $$
+$$ \begin{cases} \mid \overrightharpoon{x} \cdot \overrightharpoon{y} \mid \leq \mid\mid \overrightharpoon{x}\shortmid \mid\mid \overrightharpoon{y}\mid\mid \end{cases} $$
