@@ -58,5 +58,5 @@ $$\lVert \overrightharpoon{a} \rVert = \sqrt{a_{1}^2 + a_{2}^2 + ... + a_{n}^2}$
 If we have $$\overrightharpoon{x}, \overrightharpoon{y} \in \mathbb{R}^{n}$$:
 
 $$ \begin{cases} \mid \overrightharpoon{x} \cdot \overrightharpoon{y} \mid \leq \mid\mid \overrightharpoon{x}\mid\mid \mid\mid \overrightharpoon{y} \mid\mid \\
-\mid \overrightharpoon{x} \cdot \overrightharpoon{y} \mid = 
+\mid \overrightharpoon{x} \cdot \overrightharpoon{y} \mid = \mid\mid \overrightharpoon{x}\mid\mid \mid\mid \overrightharpoon{y} \mid\mid iff \overrightharpoon{x} = c\overrightharpoon{y}
 \end{cases} $$
