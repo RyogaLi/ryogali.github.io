@@ -5,7 +5,7 @@ tags: [Linear Algebra, Notes]
 ---
 
 #### Linear Dependence ####
-If we have a se tof vectors $$S = \{v_{1}, v_{2}, ..., v_{n}\}$$, they are **linearly dependent** iff I can 
+If we have a set of vectors $$S = \{v_{1}, v_{2}, ..., v_{n}\}$$, they are **linearly dependent** iff I can 
 find $$c_{1}v_{1} + c_{2}v_{2} + .. + c_{n}v_{n} = $$ **0**, where at least one $$c_{i}$$ is non-zero.
 
 **Example:**
@@ -38,8 +38,11 @@ If $$ V $$ is a subspace of $$\mathbb{R}^{n}$$:
 
 * $$ V $$ contains the $$\mathbf{0}$$ vector
 * **Closure under scalar multiplication**: $$\overrightharpoon{x}$$ in $$V$$, $$c\overrightharpoon{x}$$ in $$V$$ 
-* **Closure under addition**: $$\overrightharpoon{a}$$ in $$V$$ and $$\overrightharpoon{b}$$ in $$V$$ then $$\overrightharpoon{a} + \overrightharpoon{a}$$ in $$V$$
+* **Closure under addition**: $$\overrightharpoon{a}$$ in $$V$$ and $$\overrightharpoon{b}$$ in $$V$$ then $$\overrightharpoon{b} + \overrightharpoon{a}$$ in $$V$$
 
+Span of n vectors is a valid subspace of $$\mathbb{R}^{n}$$
 
+Let $$V = Span(\overrightharpoon{v_{1}}, \overrightharpoon{v_{2}}, ..., \overrightharpoon{v_{n}}) and $$ S = \{ \overrightharpoon{v_{1}}, \overrightharpoon{v_{2}}, ..., \overrightharpoon{v_{n}} \}, 
+we say that $$S$$ is a basis for $$V$$.
 
 
