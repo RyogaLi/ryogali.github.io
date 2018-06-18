@@ -34,6 +34,11 @@ In this case (not go in to the details), $$c_{1}, c_{2}, c_{3}$$ are all zeros i
 
 #### Linear Subspaces ####
 
-If $$ V $$ is a subspace of $$\mathbb{R}^{n}$$, $$ V $$ contains the $$\mathbf{0}$$ vector 
+If $$ V $$ is a subspace of $$\mathbb{R}^{n}$$:
+ 
+$$ V $$ contains the $$\mathbf{0}$$ vector
+
+$$\overrightharpoon{x}$$ in $$V$$, $$c\overrightharpoon{x}$$ in $$V$$
+
 
 
