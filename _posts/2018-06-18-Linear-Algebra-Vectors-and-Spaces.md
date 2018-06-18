@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Linear Algebra: Vectors and Spaces"
-tags: [Linear Algebra, Notes]
+tags: [Linear Algebra, Notes, Basic Math]
 ---
 
 #### Linear Dependence ####
@@ -45,6 +45,11 @@ Span of n vectors is a valid subspace of $$\mathbb{R}^{n}$$
 Let $$V = Span(\overrightharpoon{v_{1}}, \overrightharpoon{v_{2}}, ..., \overrightharpoon{v_{n}}) $$ and $$ S = \{ \overrightharpoon{v_{1}}, \overrightharpoon{v_{2}}, ..., \overrightharpoon{v_{n}} \}$$, 
 we say that $$S$$ is a basis for $$V$$.
 
+---
 
+#### Vector Dot product and Vector Length ####
 
+The **Length** of a vector $$\overrightharpoon{a}$$ is defined as:
+
+$$\lVert \overrightharpoon{a} \rVert = \sqrt{a_{1}^2 + a_{2}^2 + ... + a_{n}^2}$$
 
