@@ -28,7 +28,7 @@ $$c_{1}, c_{2}, c_{3}$$, the rule is that if at least one $$c_{i}$$ is non-zero,
 
 In this case (not go in to the details), $$c_{1}, c_{2}, c_{3}$$ are all zeros in order to get the zero vector. Hence the vectors are linearly independent.
 
-**If there are three vectors and they span $$\mathbb{R}^{3}$$, they are linearly independent of each other (and vice versa)**
+**If there are n vectors and they span $$\mathbb{R}^{n}$$, they are linearly independent of each other (and vice versa)**
 
 ---
 
