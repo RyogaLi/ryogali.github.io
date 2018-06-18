@@ -60,8 +60,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-06-18-Linear-Algebra-Vectors-and-Spaces.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="517">
-                <caret line="59" column="156" lean-forward="false" selection-start-line="59" selection-start-column="156" selection-end-line="59" selection-end-column="156" />
+              <first_editor relative-caret-position="522">
+                <caret line="59" column="80" lean-forward="true" selection-start-line="59" selection-start-column="80" selection-end-line="59" selection-end-column="156" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -418,13 +418,6 @@
       <option name="presentableId" value="Default" />
       <updated>1486851692241</updated>
     </task>
-    <task id="LOCAL-00029" summary="updated equations">
-      <created>1528819861809</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1528819861809</updated>
-    </task>
     <task id="LOCAL-00030" summary="Finished part1-3">
       <created>1528828650914</created>
       <option name="number" value="00030" />
@@ -761,7 +754,14 @@
       <option name="project" value="LOCAL" />
       <updated>1529350457950</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="test cases">
+      <created>1529350563531</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1529350563531</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1012,8 +1012,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-06-18-Linear-Algebra-Vectors-and-Spaces.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="517">
-            <caret line="59" column="156" lean-forward="false" selection-start-line="59" selection-start-column="156" selection-end-line="59" selection-end-column="156" />
+          <first_editor relative-caret-position="522">
+            <caret line="59" column="80" lean-forward="true" selection-start-line="59" selection-start-column="80" selection-end-line="59" selection-end-column="156" />
             <folding />
           </first_editor>
           <second_editor />
