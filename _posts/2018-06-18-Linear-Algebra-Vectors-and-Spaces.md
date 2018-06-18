@@ -12,4 +12,6 @@ Example:
 
 $$ S = \left\{ \begin{bmatrix}1 \\-1 \\2  \end{bmatrix}, \begin{bmatrix}2 \\1 \\3  \end{bmatrix}, \begin{bmatrix}-1 \\0 \\2  \end{bmatrix} \right\} $$
 
+We want to find out if $$Span(x) = \mathbb{R}^{3} $$ and if they are linearly independent.
+
 
