@@ -19,7 +19,7 @@ Solution:
 To Span $$\mathbb{R}^{3}$$, that means some linear combination of these vectors should be able to construct 
 any vector in $$\mathbb{R}^{3}$$. Hence:
 
-$$ \tag{1} c_{1} \begin{bmatrix}1 \\-1 \\2  \end{bmatrix} + c_{2} \begin{bmatrix}2 \\1 \\3  \end{bmatrix} + c_{3} \begin{bmatrix}-1 \\0 \\2  \end{bmatrix} = \begin{bmatrix}a \\b \\c  \end{bmatrix}$$
+$$ c_{1} \begin{bmatrix}1 \\-1 \\2  \end{bmatrix} + c_{2} \begin{bmatrix}2 \\1 \\3  \end{bmatrix} + c_{3} \begin{bmatrix}-1 \\0 \\2  \end{bmatrix} = \begin{bmatrix}a \\b \\c  \end{bmatrix} $$
 
 Now if we use algebra we can solve these equations and get a representation of $$c_{1}, c_{2} and c_{3}$$ by the constants $$a, b and c$$. Hence we can proof that 
 $$Span(S) = \mathbb{R}^{3}$$.
