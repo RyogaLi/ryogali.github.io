@@ -55,6 +55,6 @@ $$\lVert \overrightharpoon{a} \rVert = \sqrt{a_{1}^2 + a_{2}^2 + ... + a_{n}^2}$
 
 **Proof of the Cauchy Schwarz inequality**
 
-If we have $$\overrightharpoon{v_{2}}, \overrightharpoon{v_{2}} \in \mathbb{R}^{n}$$:
+If we have $$\overrightharpoon{x}, \overrightharpoon{y} \in \mathbb{R}^{n}$$:
 
-\begin{cases} \shortmid \overrightharpoon{x} \cdot \overrightharpoon{y} \shortmid \leq \shortmid\overrightharpoon{x}\shortmid \shortmid\overrightharpoon{y}\shortmid \end{cases}
+$$ \begin{cases} \shortmid \overrightharpoon{x} \cdot \overrightharpoon{y} \shortmid \leq \shortmid\overrightharpoon{x}\shortmid \shortmid\overrightharpoon{y}\shortmid \end{cases} $$
