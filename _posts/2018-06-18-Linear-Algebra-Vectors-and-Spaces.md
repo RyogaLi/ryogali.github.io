@@ -14,4 +14,7 @@ $$ S = \left\{ \begin{bmatrix}1 \\-1 \\2  \end{bmatrix}, \begin{bmatrix}2 \\1 \\
 
 We want to find out if $$Span(x) = \mathbb{R}^{3} $$ and if they are linearly independent.
 
+Solution: 
 
+To Span $$\mathbb{R}^{3}$$, that means some lear combination of these vectors should be able to construct 
+any vector in $$\mathbb{R}^{3}$$.
