@@ -21,13 +21,12 @@ any vector in $$\mathbb{R}^{3}$$. Hence:
 
 $$ c_{1} \begin{bmatrix}1 \\-1 \\2  \end{bmatrix} + c_{2} \begin{bmatrix}2 \\1 \\3  \end{bmatrix} + c_{3} \begin{bmatrix}-1 \\0 \\2  \end{bmatrix} = \begin{bmatrix}a \\b \\c  \end{bmatrix} $$
 
-Now if we use algebra we can solve these equations and get a representation of $$c_{1}, c_{2} and c_{3}$$ by the constants $$a, b and c$$. Hence we can proof that 
-$$Span(S) = \mathbb{R}^{3}$$.
+Now if we use algebra and solve for $$c_{1}, c_{2}, c_{3}$$, we can proof that $$Span(S) = \mathbb{R}^{3}$$.
 
-**Linear Independent** means that $$a, b and c$$ in equation 2 are all 0. Now we can substitute the 0s to the representations of 
+**Linear Independent** means that $$a, b and c$$ are all 0. Now we can substitute the 0s to the representations of 
 $$c_{1}, c_{2} and c_{3}$$, the rule is that if at least one $$c_{i}$$ is non-zero, the vectors are linearly dependent.
 
-In this case (not go in to the details), $$c_{1}, c_{2} and c_{3}$$ are all zeros in order to get the zero vector. Hence the vectors are linearly independent.
+In this case (not go in to the details), $$c_{1}, c_{2}, c_{3}$$ are all zeros in order to get the zero vector. Hence the vectors are linearly independent.
 
 **If there are three vectors and they span $$\mathbb{R}^{3}$$, they are linearly independent of each other (and vice versa)**
 
