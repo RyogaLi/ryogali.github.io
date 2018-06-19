@@ -60,8 +60,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-06-18-Linear-Algebra-Vectors-and-Spaces.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="481">
-                <caret line="126" column="55" lean-forward="false" selection-start-line="126" selection-start-column="55" selection-end-line="126" selection-end-column="55" />
+              <first_editor relative-caret-position="468">
+                <caret line="126" column="110" lean-forward="true" selection-start-line="126" selection-start-column="110" selection-end-line="126" selection-end-column="110" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -418,20 +418,6 @@
       <option name="presentableId" value="Default" />
       <updated>1486851692241</updated>
     </task>
-    <task id="LOCAL-00041" summary="edited Part I4">
-      <created>1528997911835</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1528997911835</updated>
-    </task>
-    <task id="LOCAL-00042" summary="edited Part I4">
-      <created>1529006121025</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1529006121025</updated>
-    </task>
     <task id="LOCAL-00043" summary="edited Part I4">
       <created>1529075172087</created>
       <option name="number" value="00043" />
@@ -761,7 +747,21 @@
       <option name="project" value="LOCAL" />
       <updated>1529433864419</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="replaced vert">
+      <created>1529434955643</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1529434955643</updated>
+    </task>
+    <task id="LOCAL-00091" summary="replaced vert">
+      <created>1529435006639</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1529435006639</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1014,8 +1014,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-06-18-Linear-Algebra-Vectors-and-Spaces.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="481">
-            <caret line="126" column="55" lean-forward="false" selection-start-line="126" selection-start-column="55" selection-end-line="126" selection-end-column="55" />
+          <first_editor relative-caret-position="468">
+            <caret line="126" column="110" lean-forward="true" selection-start-line="126" selection-start-column="110" selection-end-line="126" selection-end-column="110" />
             <folding />
           </first_editor>
           <second_editor />
