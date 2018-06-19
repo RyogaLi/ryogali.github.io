@@ -116,6 +116,12 @@ $$ \begin{aligned} x_{1} + 2x_{2} + x_{3} + x_{4} &= 7 \\
 x_{1} + 2x_{2} + 2x_{3} - x_{4} &= 12 \\
 2x_{1} + 4x_{2} + 6x_{4} &= 4 \end{aligned} $$
 
-From this set of equations, we can construct a matrix using the coefficients
+From this set of equations, we can construct a matrix using the coefficients. The last col of the matrix is the right hand side of the equations.
 
-$$ A = \begin{bmatrix}1 & 2 & 1 & 1 \\1 & 2 & 2 & -1 \\2 & 4 & 0 & 6 \end{bmatrix}  $$
+$$ A = \begin{bmatrix}1 & 2 & 1 & 1 & 7\\1 & 2 & 2 & -1 & 12\\2 & 4 & 0 & 6 & 4\end{bmatrix}  $$
+
+The reduced row echelon form of A $$ rref(A) $$ is:
+
+$$ \mathbf{A} = \begin{bmatrix}1 & 2 & 1 & 1 & 7\\0 & 0 & -1 & 2 & -5\\0 & 0 & -2 & 4 & -10\end{bmatrix}  $$
+
+Since we want to make the leading value for each row 1 
