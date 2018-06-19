@@ -72,4 +72,28 @@ $$\mid\mid \overrightharpoon{x} + \overrightharpoon{y} \mid\mid^{2} \leq \mid\mi
 
 #### Define a plane in $$\mathbb{R}^3$$ ####
 
-If we have normal vector $$\overrightharpoon{n}$$ that is perpendicular to everything on the plane, and we have an arbitrary vector $$\overrightharpoon{a}$$ on the plane, then we have $$\overrightharpoon{n} \cdot \overrightharpoon{a} = 0$$ 
+Assume we have a plane in $$\mathbb{R}^3$$. If we have normal vector 
+$$\overrightharpoon{n}$$ that is perpendicular to everything on the plane, 
+and we have an arbitrary vector $$\overrightharpoon{a}$$ on the plane, 
+then we have $$\overrightharpoon{n} \cdot \overrightharpoon{a} = 0$$ 
+
+Definition of a plane in $$\mathbb{R}^3$$:
+
+Lets say we have $$ \overrightharpoon{x}_{0} = \begin{bmatrix}x_{0} \\y_{0} \\z_{0}  \end{bmatrix}$$ 
+and another vector $$ \overrightharpoon{x} = \begin{bmatrix}x \\y \\z  \end{bmatrix}$$. 
+Note that here neither of these vector is on the plane, however, if we consider this 
+vector $$ (\overrightharpoon{x} - \overrightharpoon{x}_{0})$$, it is on the plane and 
+it is perpendicular to the normal vector $$\overrightharpoon{n}$$.
+
+We can define the normal vector $$\overrightharpoon{n} = \begin{bmatrix}n_{1} \\n_{2} \\n_{3} \end{bmatrix}$$.
+Since $$\overrightharpoon{n}$$ is perpendicular with $$ (\overrightharpoon{x} - \overrightharpoon{x}_{0})$$:
+
+$$\overrightharpoon{n} \cdot (\overrightharpoon{x} - \overrightharpoon{x}_{0}) = 0 $$
+
+If we open this equation up, we will get:
+
+$$ n_{1}(x - x_{0}) + n_{2}(y-y_{0}) + n_{3}(z-z_{0}) = 0 $$
+
+This gives us the definition of a plane in $$\mathbb{R}^3$$ which is:
+
+$$Ax + By + Cz = 0$$
