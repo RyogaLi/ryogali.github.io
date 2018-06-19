@@ -60,8 +60,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-06-18-Linear-Algebra-Vectors-and-Spaces.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="602">
-                <caret line="116" column="34" lean-forward="false" selection-start-line="116" selection-start-column="34" selection-end-line="116" selection-end-column="34" />
+              <first_editor relative-caret-position="534">
+                <caret line="116" column="29" lean-forward="false" selection-start-line="116" selection-start-column="29" selection-end-line="116" selection-end-column="29" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -418,13 +418,6 @@
       <option name="presentableId" value="Default" />
       <updated>1486851692241</updated>
     </task>
-    <task id="LOCAL-00038" summary="test matrix">
-      <created>1528840083332</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1528840083332</updated>
-    </task>
     <task id="LOCAL-00039" summary="test matrix">
       <created>1528912667019</created>
       <option name="number" value="00039" />
@@ -761,7 +754,14 @@
       <option name="project" value="LOCAL" />
       <updated>1529428877557</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="test new line">
+      <created>1529433498652</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1529433498652</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TodoView">
@@ -847,7 +847,8 @@
     <MESSAGE value="edited Part I4" />
     <MESSAGE value="update LA" />
     <MESSAGE value="test cases" />
-    <option name="LAST_COMMIT_MESSAGE" value="test cases" />
+    <MESSAGE value="test new line" />
+    <option name="LAST_COMMIT_MESSAGE" value="test new line" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1012,8 +1013,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-06-18-Linear-Algebra-Vectors-and-Spaces.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="602">
-            <caret line="116" column="34" lean-forward="false" selection-start-line="116" selection-start-column="34" selection-end-line="116" selection-end-column="34" />
+          <first_editor relative-caret-position="534">
+            <caret line="116" column="29" lean-forward="false" selection-start-line="116" selection-start-column="29" selection-end-line="116" selection-end-column="29" />
             <folding />
           </first_editor>
           <second_editor />

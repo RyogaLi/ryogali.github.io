@@ -112,6 +112,6 @@ The Cross product of $$ \overrightharpoon{a}$$ and $$\overrightharpoon{b}$$ is o
 
 Here is a set of equations:
 
-$$x_{1} + 2x_{2} + x_{3} + x_{4} = 7 \\
-x_{1} + 2x_{2} + x_{3} + x_{4} = 7 \\
-x_{1} + 2x_{2} + x_{3} + x_{4} = 7$$
+$$ \begin{aligned} x_{1} + 2x_{2} + x_{3} + x_{4} &= 7 \\
+x_{1} + 2x_{2} + 2x_{3} - x_{4} &= 12 \\
+2x_{1} + 4x_{2} + 6x_{4} &= 4 \end{aligned} $$
