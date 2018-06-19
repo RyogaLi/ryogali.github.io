@@ -58,5 +58,15 @@ $$\lVert \overrightharpoon{a} \rVert = \sqrt{a_{1}^2 + a_{2}^2 + ... + a_{n}^2}$
 If we have $$\overrightharpoon{x}, \overrightharpoon{y} \in \mathbb{R}^{n}$$:
 
 $$ \begin{cases} \mid \overrightharpoon{x} \cdot \overrightharpoon{y} \mid \leq \mid\mid \overrightharpoon{x}\mid\mid \mid\mid \overrightharpoon{y} \mid\mid \\
-\mid \overrightharpoon{x} \cdot \overrightharpoon{y} \mid = \mid\mid \overrightharpoon{x}\mid\mid \mid\mid \overrightharpoon{y} \mid\mid iff \overrightharpoon{x} = c\overrightharpoon{y}
+\mid \overrightharpoon{x} \cdot \overrightharpoon{y} \mid = \mid\mid \overrightharpoon{x}\mid\mid \mid\mid \overrightharpoon{y} \mid\mid $$ iff $$\overrightharpoon{x} = c\overrightharpoon{y}$$
 \end{cases} $$
+
+We define $$p(t) = \mid\mid t\overrightharpoon{y} - \overrightharpoon{x} \mid\mid^{2} $$
+
+$$ \because \mid\mid \overrightharpoon{V} \mid\mid^{2} = \overrightharpoon{V} \cdot \overrightharpoon{V} $$
+
+$$\therefore P(t) = (t\overrightharpoon{y} - x) \cdot (t\overrightharpoon{y} - x)$$
+
+Using this inequality, we can proof the **vector triangle inequality** which is:
+
+$$\mid\mid \overrightharpoon{x} + \overrightharpoon{y} \mid\mid^{2} \leq \mid\mid \overrightharpoon{x} \mid\mid + \mid\mid \overrightharpoon{y} \mid\mid $$
