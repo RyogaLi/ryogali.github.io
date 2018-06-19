@@ -70,6 +70,6 @@ $$\mid\mid \overrightharpoon{x} + \overrightharpoon{y} \mid\mid^{2} \leq \mid\mi
 
 ---
 
-#### Define a plane in $$\mathbb{R}^3 ####
+#### Define a plane in $$\mathbb{R}^3$$ ####
 
 If we have normal vector $$\overrightharpoon{n}$$ that is perpendicular to everything on the plane, and we have an arbitrary vector $$\overrightharpoon{a}$$ on the plane, then we have $$\overrightharpoon{n} \cdot \overrightharpoon{a} = 0$$ 
