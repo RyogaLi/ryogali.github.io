@@ -124,4 +124,4 @@ The reduced row echelon form of A $$ rref(A) $$ is:
 
 $$ \mathbf{A} = \begin{bmatrix}1 & 2 & 1 & 1 & 7\\0 & 0 & -1 & 2 & -5\\0 & 0 & -2 & 4 & -10\end{bmatrix}  $$
 
-Since we want to make the leading value for each row 1 
+Since we want to make the leading value for each row to 1, we times the second row by -1 to get $$ \[0 0 1 2 5 \]$$
