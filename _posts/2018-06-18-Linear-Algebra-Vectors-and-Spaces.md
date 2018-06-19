@@ -55,18 +55,18 @@ $$\lVert \overrightharpoon{a} \rVert = \sqrt{a_{1}^2 + a_{2}^2 + ... + a_{n}^2}$
 
 **Proof of the Cauchy Schwarz inequality**
 
-If we have $$\overrightharpoon{x}, \overrightharpoon{y} \in \mathbb{R}^{n} $$: $$ \begin{cases} \mid \overrightharpoon{x} \cdot \overrightharpoon{y} \mid \leq \mid\mid \overrightharpoon{x}\mid\mid \mid\mid \overrightharpoon{y} \mid\mid \\
-\mid \overrightharpoon{x} \cdot \overrightharpoon{y} \mid = \mid\mid \overrightharpoon{x}\mid\mid \mid\mid \overrightharpoon{y} \mid\mid \iff \overrightharpoon{x} = c\overrightharpoon{y} \end{cases} $$
+If we have $$\overrightharpoon{x}, \overrightharpoon{y} \in \mathbb{R}^{n} $$: $$ \begin{cases} \mid \overrightharpoon{x} \cdot \overrightharpoon{y} \mid \leq \Vert \overrightharpoon{x}\Vert \Vert \overrightharpoon{y} \Vert \\
+\mid \overrightharpoon{x} \cdot \overrightharpoon{y} \mid = \Vert \overrightharpoon{x}\Vert \Vert \overrightharpoon{y} \Vert \iff \overrightharpoon{x} = c\overrightharpoon{y} \end{cases} $$
 
-We define $$ P(t) = \mid\mid t\overrightharpoon{y} - \overrightharpoon{x} \mid\mid^{2} $$
+We define $$ P(t) = \Vert t\overrightharpoon{y} - \overrightharpoon{x} \Vert^{2} $$
 
-$$ \because \mid\mid \overrightharpoon{V} \mid\mid^{2} = \overrightharpoon{V} \cdot \overrightharpoon{V} $$
+$$ \because \Vert \overrightharpoon{V} \Vert^{2} = \overrightharpoon{V} \cdot \overrightharpoon{V} $$
 
 $$\therefore P(t) = (t\overrightharpoon{y} - x) \cdot (t\overrightharpoon{y} - x)$$ Here I skipped the rest of proofs, it's just simple algebra. 
 
 Using this inequality, we can proof the **vector triangle inequality** which is:
 
-$$\mid\mid \overrightharpoon{x} + \overrightharpoon{y} \mid\mid^{2} \leq \mid\mid \overrightharpoon{x} \mid\mid + \mid\mid \overrightharpoon{y} \mid\mid $$
+$$\Vert \overrightharpoon{x} + \overrightharpoon{y} \Vert^{2} \leq \Vert \overrightharpoon{x} \Vert + \Vert \overrightharpoon{y} \Vert $$
 
 ---
 
@@ -115,3 +115,7 @@ Here is a set of equations:
 $$ \begin{aligned} x_{1} + 2x_{2} + x_{3} + x_{4} &= 7 \\
 x_{1} + 2x_{2} + 2x_{3} - x_{4} &= 12 \\
 2x_{1} + 4x_{2} + 6x_{4} &= 4 \end{aligned} $$
+
+From this set of equations, we can construct a matrix using the coefficients
+
+$$ A = \begin{bmatrix}1 & 2 & 1 & 1 \\1 & 2 & 2 & -1 \\2 & 4 & 0 & 6 \end{bmatrix}  $$
