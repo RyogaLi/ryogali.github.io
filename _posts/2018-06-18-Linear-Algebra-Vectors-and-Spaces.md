@@ -55,18 +55,21 @@ $$\lVert \overrightharpoon{a} \rVert = \sqrt{a_{1}^2 + a_{2}^2 + ... + a_{n}^2}$
 
 **Proof of the Cauchy Schwarz inequality**
 
-If we have $$\overrightharpoon{x}, \overrightharpoon{y} \in \mathbb{R}^{n} $$:
-
-$$ \begin{cases} \mid \overrightharpoon{x} \cdot \overrightharpoon{y} \mid \leq \mid\mid \overrightharpoon{x}\mid\mid \mid\mid \overrightharpoon{y} \mid\mid \\
+If we have $$\overrightharpoon{x}, \overrightharpoon{y} \in \mathbb{R}^{n} $$: $$ \begin{cases} \mid \overrightharpoon{x} \cdot \overrightharpoon{y} \mid \leq \mid\mid \overrightharpoon{x}\mid\mid \mid\mid \overrightharpoon{y} \mid\mid \\
 \mid \overrightharpoon{x} \cdot \overrightharpoon{y} \mid = \mid\mid \overrightharpoon{x}\mid\mid \mid\mid \overrightharpoon{y} \mid\mid \iff \overrightharpoon{x} = c\overrightharpoon{y} \end{cases} $$
 
-We define $$ p(t) = \mid\mid t\overrightharpoon{y} - \overrightharpoon{x} \mid\mid^{2} $$
+We define $$ P(t) = \mid\mid t\overrightharpoon{y} - \overrightharpoon{x} \mid\mid^{2} $$
 
 $$ \because \mid\mid \overrightharpoon{V} \mid\mid^{2} = \overrightharpoon{V} \cdot \overrightharpoon{V} $$
 
-$$\therefore P(t) = (t\overrightharpoon{y} - x) \cdot (t\overrightharpoon{y} - x)$$
+$$\therefore P(t) = (t\overrightharpoon{y} - x) \cdot (t\overrightharpoon{y} - x)$$ Here I skipped the rest of proofs, it's just simple algebra. 
 
 Using this inequality, we can proof the **vector triangle inequality** which is:
 
 $$\mid\mid \overrightharpoon{x} + \overrightharpoon{y} \mid\mid^{2} \leq \mid\mid \overrightharpoon{x} \mid\mid + \mid\mid \overrightharpoon{y} \mid\mid $$
 
+---
+
+#### Define a plane in $$\mathbb{R}^3 ####
+
+If we have normal vector $$\overrightharpoon{n}$$ that is perpendicular to everything on the plane, and we have an arbitrary vector $$\overrightharpoon{a}$$ on the plane, then we have $$\overrightharpoon{n} \cdot \overrightharpoon{a} = 0$$ 
