@@ -97,3 +97,21 @@ $$ n_{1}(x - x_{0}) + n_{2}(y-y_{0}) + n_{3}(z-z_{0}) = 0 $$
 This gives us the definition of a plane in $$\mathbb{R}^3$$ which is:
 
 $$Ax + By + Cz = 0$$
+
+---
+
+#### Cross product ####
+
+The Cross product is only defined in $$\mathbb{R}^3$$. 
+
+The Cross product of $$ \overrightharpoon{a}$$ and $$\overrightharpoon{b}$$ is orthognal to a and b. 
+
+---
+
+#### Matrix row-echelon form ####
+
+Here is a set of equations:
+
+$$x_{1} + 2x_{2} + x_{3} + x_{4} = 7 \\
+x_{1} + 2x_{2} + x_{3} + x_{4} = 7 \\
+x_{1} + 2x_{2} + x_{3} + x_{4} = 7$$
