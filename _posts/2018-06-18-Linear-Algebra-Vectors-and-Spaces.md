@@ -128,3 +128,14 @@ Since we want to make the leading value for each row to 1, we times the second r
 
 $$ rref(\mathbf{A}) = \begin{bmatrix}1 & 2 & 0 & 3 & 2\\0 & 0 & 1 & -2 & 5\\0 & 0 & 0 & 0 & 0\end{bmatrix} $$
 
+Now we have the reduced row echelon form because all of the leading 1s in each row are the only non-zero entry in their cols.
+These are called the **pivot entries**.
+
+---
+
+#### Matrix vector products ####
+
+If we have a matrix $$\mathbf{A}$$ with the shape $$m \times n$$ (rows $$\times$$ cols) and a vector $\mathbf{\overrightharpoon{x}}$ with n elements.
+
+$$\mathbf{A} \times \overrightharpoon{x} = \begin{bmatrix} a_{11}x_{1} + a_{12}x_{2} + ... + a_{1n}x_{n} \\ a_{21}x_{1} + a_{22}x_{2} + ... + a_{2n}x_{n} \\ ... \\ a_{m1}x_{1} + a_{m2}x_{2} + ... + a_{mn}x_{n} \end{bmatrix}$$
+
