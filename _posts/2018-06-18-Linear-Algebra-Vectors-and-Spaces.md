@@ -144,7 +144,8 @@ $$\mathbf{A} \mathbf{\overrightharpoon{x}} = \begin{bmatrix} a_{11}x_{1} + a_{12
 #### The Null space of a matrix ####
 
 If we have a matrix $$\mathbf{A}$$, the **null space** of $$\mathbf{A}$$ is 
-$$ N(\mathbf{A)) = \{ \mathbf{\overrightharpoon{x}} \vert \mathbf{A} \mathbf{\overrightharpoon{x}} = \mathbf{\overrightharpoon{0}} \} $$
+
+$$ N(\mathbf{A}) = \{ \mathbf{\overrightharpoon{x}} \vert \mathbf{A} \mathbf{\overrightharpoon{x}} = \mathbf{\overrightharpoon{0}} \} $$
 
 To find the null space of a matrix, we find the matrix vector products and solve for x. 
 
