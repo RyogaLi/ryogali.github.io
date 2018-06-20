@@ -143,9 +143,10 @@ $$\mathbf{A} \mathbf{\overrightharpoon{x}} = \begin{bmatrix} a_{11}x_{1} + a_{12
 
 #### The Null space of a matrix ####
 
-If we have a matrix $$\mathbf{A}$$, the **null space** of $$\mathbf{A}$$ is $$ N(\mathbf{A)) = \{ \mathbf{\overrightharpoon{x}} \| \mathbf{A} \mathbf{\overrightharpoon{x}} = \mathbf{\overrightharpoon{0}}$$
+If we have a matrix $$\mathbf{A}$$, the **null space** of $$\mathbf{A}$$ is 
+$$ N(\mathbf{A)) = \{ \mathbf{\overrightharpoon{x}} \| \mathbf{A} \mathbf{\overrightharpoon{x}} = \mathbf{\overrightharpoon{0}} $$
 
-To find the null space of a matrix, we find the matrix vecot products and solve for x. 
+To find the null space of a matrix, we find the matrix vector products and solve for x. 
 
 If the null space of a matrix only contains the zero vector, that means the columns of 
 the matrix are linearly independent and (vice versa).
@@ -154,5 +155,5 @@ the matrix are linearly independent and (vice versa).
 
 $$ \mathbf{A} = \begin{bmatrix} \mathbf{\overrightharpoon{v_{1}} & \mathbf{\overrightharpoon{v_{2}}} & ... & \mathbf{\overrightharpoon{v_{n}}} \end{bmatrix} $$ where $$ \mathbf{\overrightharpoon{v_{1}}}, \mathbf{\overrightharpoon{v_{2}}}, ..., \mathbf{\overrightharpoon{v_{n}}} \in \mathbb{R}^{m} $$
 
-The column space of $$\mathbf{A}$$, $$C(A) = Span()
+The column space of $$\mathbf{A}$$, $$C(A) = Span()$$
 

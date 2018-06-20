@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cd68d1c7-b462-4f6e-8a29-c118cdc0ee23" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2018-06-18-Linear-Algebra-Vectors-and-Spaces.md" afterPath="$PROJECT_DIR$/_posts/2018-06-18-Linear-Algebra-Vectors-and-Spaces.md" />
     </list>
     <ignored path="my-git-page.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,8 +60,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-06-18-Linear-Algebra-Vectors-and-Spaces.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="260">
-                <caret line="145" column="129" lean-forward="false" selection-start-line="145" selection-start-column="129" selection-end-line="145" selection-end-column="129" />
+              <first_editor relative-caret-position="322">
+                <caret line="148" column="61" lean-forward="false" selection-start-line="148" selection-start-column="61" selection-end-line="148" selection-end-column="61" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -417,13 +418,6 @@
       <option name="presentableId" value="Default" />
       <updated>1486851692241</updated>
     </task>
-    <task id="LOCAL-00049" summary="edited Part I4">
-      <created>1529094071178</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1529094071178</updated>
-    </task>
     <task id="LOCAL-00050" summary="update LA">
       <created>1529335359209</created>
       <option name="number" value="00050" />
@@ -760,7 +754,14 @@
       <option name="project" value="LOCAL" />
       <updated>1529520074933</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="null space">
+      <created>1529520083454</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1529520083454</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1014,8 +1015,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-06-18-Linear-Algebra-Vectors-and-Spaces.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="260">
-            <caret line="145" column="129" lean-forward="false" selection-start-line="145" selection-start-column="129" selection-end-line="145" selection-end-column="129" />
+          <first_editor relative-caret-position="322">
+            <caret line="148" column="61" lean-forward="false" selection-start-line="148" selection-start-column="61" selection-end-line="148" selection-end-column="61" />
             <folding />
           </first_editor>
           <second_editor />
