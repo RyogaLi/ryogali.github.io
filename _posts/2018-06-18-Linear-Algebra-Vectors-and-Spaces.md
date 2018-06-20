@@ -118,7 +118,7 @@ x_{1} + 2x_{2} + 2x_{3} - x_{4} &= 12 \\
 
 From this set of equations, we can construct a matrix using the coefficients. The last col of the matrix is the right hand side of the equations.
 
-$$ A = \begin{bmatrix}1 & 2 & 1 & 1 & 7\\1 & 2 & 2 & -1 & 12\\2 & 4 & 0 & 6 & 4\end{bmatrix}  $$
+$$ \mathbf{A} = \begin{bmatrix}1 & 2 & 1 & 1 & 7\\1 & 2 & 2 & -1 & 12\\2 & 4 & 0 & 6 & 4\end{bmatrix}  $$
 
 The reduced row echelon form of A $$ rref(A) $$ is:
 
@@ -135,7 +135,11 @@ These are called the **pivot entries**.
 
 #### Matrix vector products ####
 
-If we have a matrix $$\mathbf{A}$$ with the shape $$m \times n$$ (rows $$\times$$ cols) and a vector $\mathbf{\overrightharpoon{x}}$ with n elements.
+If we have a matrix $$\mathbf{A}$$ with the shape $$m \times n$$ (rows $$\times$$ cols) and a vector $$\mathbf{\overrightharpoon{x}}$$ with n elements.
 
-$$\mathbf{A} \times \overrightharpoon{x} = \begin{bmatrix} a_{11}x_{1} + a_{12}x_{2} + ... + a_{1n}x_{n} \\ a_{21}x_{1} + a_{22}x_{2} + ... + a_{2n}x_{n} \\ ... \\ a_{m1}x_{1} + a_{m2}x_{2} + ... + a_{mn}x_{n} \end{bmatrix}$$
+$$\mathbf{A} \overrightharpoon{x} = \begin{bmatrix} a_{11}x_{1} + a_{12}x_{2} + ... + a_{1n}x_{n} \\ a_{21}x_{1} + a_{22}x_{2} + ... + a_{2n}x_{n} \\ ... \\ a_{m1}x_{1} + a_{m2}x_{2} + ... + a_{mn}x_{n} \end{bmatrix} = \mathbf{\overrightharpoon{b}} $$ which is a $$ m \times 1$$ matrix.
+
+---
+
+
 
