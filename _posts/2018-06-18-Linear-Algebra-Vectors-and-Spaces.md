@@ -137,9 +137,16 @@ These are called the **pivot entries**.
 
 If we have a matrix $$\mathbf{A}$$ with the shape $$m \times n$$ (rows $$\times$$ cols) and a vector $$\mathbf{\overrightharpoon{x}}$$ with n elements.
 
-$$\mathbf{A} \overrightharpoon{x} = \begin{bmatrix} a_{11}x_{1} + a_{12}x_{2} + ... + a_{1n}x_{n} \\ a_{21}x_{1} + a_{22}x_{2} + ... + a_{2n}x_{n} \\ ... \\ a_{m1}x_{1} + a_{m2}x_{2} + ... + a_{mn}x_{n} \end{bmatrix} = \mathbf{\overrightharpoon{b}} $$ which is a $$ m \times 1$$ matrix.
+$$\mathbf{A} \mathbf{\overrightharpoon{x}} = \begin{bmatrix} a_{11}x_{1} + a_{12}x_{2} + ... + a_{1n}x_{n} \\ a_{21}x_{1} + a_{22}x_{2} + ... + a_{2n}x_{n} \\ ... \\ a_{m1}x_{1} + a_{m2}x_{2} + ... + a_{mn}x_{n} \end{bmatrix} = \mathbf{\overrightharpoon{b}} $$ which is a $$ m \times 1$$ matrix.
 
 ---
 
+#### the Null space of a matrix ####
 
+Def: If we have a matrix $$\mathbf{A}$$, the null space of $$\mathbf{A}$$ is $$ N(\mathbf{A)) = \{ \mathbf{\overrightharpoon{x}} | \mathbf{A} \mathbf{\overrightharpoon{x}} = \mathbf{\overrightharpoon{0}}$$
+
+To find the null space of a matrix, we find the matrix vecot products and solve for x. 
+
+If the null space of a matrix only contains the zero vector, that means the columns of 
+the matrix are linearly independent and (vice versa).
 
