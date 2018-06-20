@@ -154,7 +154,7 @@ the matrix are linearly independent and (vice versa).
 
 **Column space** of a $$m \times n$$ matrix $$\mathbf{A}$$ is defined as the span of the column vectors of $$\mathbf{A}$$
 
-$$ \mathbf{A} = \begin{bmatrix} \mathbf{\overrightharpoon{v_{1}} & \mathbf{\overrightharpoon{v_{2}}} & ... & \mathbf{\overrightharpoon{v_{n}}} \end{bmatrix} $$ where $$ \mathbf{\overrightharpoon{v_{1}}}, \mathbf{\overrightharpoon{v_{2}}}, ..., \mathbf{\overrightharpoon{v_{n}}} \in \mathbb{R}^{m} $$
+$$ \mathbf{A} = \begin{bmatrix} \mathbf{\overrightharpoon{v_{1}}} & \mathbf{\overrightharpoon{v_{2}}} & ... & \mathbf{\overrightharpoon{v_{n}}} \end{bmatrix} $$ where $$ \mathbf{\overrightharpoon{v_{1}}}, \mathbf{\overrightharpoon{v_{2}}}, ..., \mathbf{\overrightharpoon{v_{n}}} \in \mathbb{R}^{m} $$
 
 The column space of $$\mathbf{A}$$, $$C(A) = Span()$$
 
