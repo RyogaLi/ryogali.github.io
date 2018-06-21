@@ -73,8 +73,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-06-21-Linear-Algebra-Matrix-transformations.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="449">
-                <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <first_editor relative-caret-position="500">
+                <caret line="48" column="145" lean-forward="false" selection-start-line="48" selection-start-column="145" selection-end-line="48" selection-end-column="145" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -412,13 +412,6 @@
       <option name="presentableId" value="Default" />
       <updated>1486851692241</updated>
     </task>
-    <task id="LOCAL-00064" summary="update LA">
-      <created>1529342227098</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1529342227098</updated>
-    </task>
     <task id="LOCAL-00065" summary="update LA">
       <created>1529342328366</created>
       <option name="number" value="00065" />
@@ -755,7 +748,14 @@
       <option name="project" value="LOCAL" />
       <updated>1529613501817</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="identity matrix">
+      <created>1529614124617</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1529614124617</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="TodoView">
@@ -846,7 +846,8 @@
     <MESSAGE value="null space" />
     <MESSAGE value="matrix transformation" />
     <MESSAGE value="linear transformation" />
-    <option name="LAST_COMMIT_MESSAGE" value="linear transformation" />
+    <MESSAGE value="identity matrix" />
+    <option name="LAST_COMMIT_MESSAGE" value="identity matrix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1015,8 +1016,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-06-21-Linear-Algebra-Matrix-transformations.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="449">
-            <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <first_editor relative-caret-position="500">
+            <caret line="48" column="145" lean-forward="false" selection-start-line="48" selection-start-column="145" selection-end-line="48" selection-end-column="145" />
             <folding />
           </first_editor>
           <second_editor />

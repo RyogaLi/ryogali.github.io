@@ -44,5 +44,7 @@ the transformation to the column vector to the identity matrix:
 
 $$ T(\begin{bmatrix}1 \\ 0\end{bmatrix}) = \begin{bmatrix}1 \\ -1\\ 4\end{bmatrix}$$ and $$ T(\begin{bmatrix}0 \\ 1 \end{bmatrix}) = \begin{bmatrix}3 \\ 5 \\ 1\end{bmatrix}$$
 
+Now we can re-write the transformation as 
 
+$$ T(\begin{bmatrix}x_{1} \\ x_{2}\end{bmatrix}) = \begin{bmatrix}1 &3 \\-1& 5 \\ 4 & 1\end{bmatrix} \begin{bmatrix}x_{1} \\ x_{2}\end{bmatrix}$$
 
