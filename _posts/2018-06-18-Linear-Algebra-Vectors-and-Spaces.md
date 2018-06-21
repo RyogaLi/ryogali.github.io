@@ -190,10 +190,7 @@ Example in python: Find basis and rank for column space of a matrix.
 {% highlight python %}
 import numpy as np
 # A QR decomposition provides an orthogonal basis for the column space of A
-q,r = np.linalg.qr(A)
 # if the rank of A is n, then the first n columns of q form a basis for the column space of A
+q,r = np.linalg.qr(A)
 {% endhighlight %}
-
-
-
 

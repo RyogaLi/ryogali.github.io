@@ -56,12 +56,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-06-18-Linear-Algebra-Vectors-and-Spaces.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2018-06-18-Linear-Algebra-Vectors-and-Spaces.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2018-06-18-Linear-Algebra-Vectors-and-Spaces.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="491">
-                <caret line="193" column="93" lean-forward="false" selection-start-line="193" selection-start-column="93" selection-end-line="193" selection-end-column="93" />
+              <first_editor relative-caret-position="131">
+                <caret line="87" column="107" lean-forward="true" selection-start-line="87" selection-start-column="57" selection-end-line="87" selection-end-column="107" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2018-06-21-Linear-Algebra-Matrix-transformations.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-06-21-Linear-Algebra-Matrix-transformations.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="187">
+                <caret line="11" column="59" lean-forward="false" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -115,6 +128,7 @@
         <option value="$PROJECT_DIR$/pages/search.html" />
         <option value="$PROJECT_DIR$/_posts/2018-06-12-part-I4-Numerical-Computation.md" />
         <option value="$PROJECT_DIR$/_posts/2018-06-18-Linear-Algebra-Vectors-and-Spaces.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-06-21-Linear-Algebra-Matrix-transformations.md" />
       </list>
     </option>
   </component>
@@ -397,13 +411,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1486851692241</updated>
-    </task>
-    <task id="LOCAL-00058" summary="update LA">
-      <created>1529336614107</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1529336614107</updated>
     </task>
     <task id="LOCAL-00059" summary="update LA">
       <created>1529336713113</created>
@@ -741,7 +748,14 @@
       <option name="project" value="LOCAL" />
       <updated>1529596968289</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="null space">
+      <created>1529602418559</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1529602418559</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="TodoView">
@@ -837,13 +851,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_includes/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_layout/page.html" />
     <entry file="file://$PROJECT_DIR$/index.md" />
     <entry file="file://$PROJECT_DIR$/index.html">
@@ -995,8 +1002,19 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-06-18-Linear-Algebra-Vectors-and-Spaces.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="491">
-            <caret line="193" column="93" lean-forward="false" selection-start-line="193" selection-start-column="93" selection-end-line="193" selection-end-column="93" />
+          <first_editor relative-caret-position="131">
+            <caret line="87" column="107" lean-forward="true" selection-start-line="87" selection-start-column="57" selection-end-line="87" selection-end-column="107" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-06-21-Linear-Algebra-Matrix-transformations.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="187">
+            <caret line="11" column="59" lean-forward="false" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
             <folding />
           </first_editor>
           <second_editor />
