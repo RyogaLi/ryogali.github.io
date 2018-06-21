@@ -156,10 +156,10 @@ $$ \mathbf{A} = \begin{bmatrix} \mathbf{\overrightharpoon{v_{1}}} & \mathbf{\ove
 
 The column space of $$\mathbf{A}$$, $$C(A) = Span(\mathbf{\overrightharpoon{v_{1}}}, \mathbf{\overrightharpoon{v_{2}}}, ..., \mathbf{\overrightharpoon{v_{n}}})$$
 
-Proof: $$ A = \{ a_{1}, a_{2}, ..., a_{n} \}$$ is a basis for the subspace $$V$$, then any set that spans
+**Proof:** $$ A = \{ a_{1}, a_{2}, ..., a_{n} \}$$ is a basis for the subspace $$V$$, then any set that spans
 $$V$$ has to have at least $$n$$ elements.
 
-If we have a set of vectors $$B = \{b_{1}, b_{2}, ..., b_{m}\} $$ where $$m\le n$$ spans $$V$$.
+If we have a set of vectors $$B = \{b_{1}, b_{2}, ..., b_{m}\} $$ where $$m< n$$ spans $$V$$.
 
 We define another set $$B_{1}' = \{a_{1}, b_{1}, b_{2}, ..., b_{n}\}$$ and this set is Linearly dependent. Because set $$A$$
 is a basis of $$V$$ and set $$B$$ span $$V$$ which means all the components in set $$B$$ and construct any member of $$V$$.
@@ -170,6 +170,15 @@ Lets say one of the coefficient of $$b$$ is $$d_{i}$$ and it is non-zero, by def
 an equation of $$d_{i}$$ and everything else. If we assume $$b_{i} = b_{1}$$, our new set:
 
 $$B_{1} = \{a_{1}, b_{2}, b_{3}, ..., b_{m}\}$$ spans $$V$$
+
+We can keep adding $$a_{i}$$ to the set and the set will always spans $$V$$. 
+
+$$B_{m} = \{a_{1}, a_{2}, ..., a_{m}\}$$ spans $$V$$ where $$m < n$$
+
+Hence:
+
+$$A = \{a_{1}, a_{2}, ..., a_{m}, ..., a_{n}\}$$ where $$n > m$$
+
 
 
 
