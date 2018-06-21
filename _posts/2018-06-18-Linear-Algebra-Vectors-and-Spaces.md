@@ -141,9 +141,9 @@ $$\mathbf{A} \mathbf{\overrightharpoon{x}} = \begin{bmatrix} a_{11}x_{1} + a_{12
 
 ---
 
-#### The Null space of a matrix ####
+#### The Null space and column space ####
 
-If we have a matrix $$\mathbf{A}$$, the **null space** of $$\mathbf{A}$$ is $$ N(\mathbf{A}) = \{ \mathbf{\overrightharpoon{x}} \vert \mathbf{A} \mathbf{\overrightharpoon{x}} = \mathbf{\overrightharpoon{0}} \} $$
+If we have a matrix $$\mathbf{A}$$, the **Null space** of $$\mathbf{A}$$ is $$ N(\mathbf{A}) = \{ \mathbf{\overrightharpoon{x}} \vert \mathbf{A} \mathbf{\overrightharpoon{x}} = \mathbf{\overrightharpoon{0}} \} $$
 
 To find the null space of a matrix, we find the matrix vector products and solve for x. 
 
@@ -155,4 +155,21 @@ the matrix are linearly independent and (vice versa).
 $$ \mathbf{A} = \begin{bmatrix} \mathbf{\overrightharpoon{v_{1}}} & \mathbf{\overrightharpoon{v_{2}}} & ... & \mathbf{\overrightharpoon{v_{n}}} \end{bmatrix} $$ where $$ \mathbf{\overrightharpoon{v_{1}}}, \mathbf{\overrightharpoon{v_{2}}}, ..., \mathbf{\overrightharpoon{v_{n}}} \in \mathbb{R}^{m} $$
 
 The column space of $$\mathbf{A}$$, $$C(A) = Span(\mathbf{\overrightharpoon{v_{1}}}, \mathbf{\overrightharpoon{v_{2}}}, ..., \mathbf{\overrightharpoon{v_{n}}})$$
+
+Proof: $$ A = \{ a_{1}, a_{2}, ..., a_{n} \}$$ is a basis for the subspace $$V$$, then any set that spans
+$$V$$ has to have at least $$n$$ elements.
+
+If we have a set of vectors $$B = \{b_{1}, b_{2}, ..., b_{m}\} $$ where $$m\le n$$ spans $$V$$.
+
+We define another set $$B_{1}' = \{a_{1}, b_{1}, b_{2}, ..., b_{n}\}$$ and this set is Linearly dependent. Because set $$A$$
+is a basis of $$V$$ and set $$B$$ span $$V$$ which means all the components in set $$B$$ and construct any member of $$V$$.
+
+$$\therefore a_{1} = d_{1}b_{1} + d_{2}b{2} + ... + d_{m}b_{m}$$ and at least one $$b$$ is non-zero.
+
+Lets say one of the coefficient of $$b$$ is $$d_{i}$$ and it is non-zero, by definition, we can represent $$b_{i}$$ with 
+an equation of $$d_{i}$$ and everything else. If we assume $$b_{i} = b_{1}$$, our new set:
+
+$$B_{1} = \{a_{1}, b_{2}, b_{3}, ..., b_{m}\}$$ spans $$V$$
+
+
 
