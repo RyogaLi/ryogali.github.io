@@ -182,6 +182,18 @@ $$A = \{a_{1}, a_{2}, ..., a_{m}, ..., a_{n}\}$$ where $$n > m$$
 However, if $$B_{m}$$ spans $$V$$, it means that $$a_{n}$$ can be represented as some linear combination of the elements in 
 $$B_{m}$$. Set $$A$$ is no longer basis for $$V$$ since it's not linearly independent. Proof by contradiction.
 
+**Nullity:** Dimension of any matrix is the number of elements in a basis for the matrix. Also is the number of non-pivot cols in the $$rref(A)$$.
+
+**Rank:** Rank for a matrix is the same thing as the dimension of the column space of a matrix. 
+
+Example in python: Find basis and rank for column space of a matrix.
+{% highlight python %}
+import numpy as np
+# A QR decomposition provides an orthogonal basis for the column space of A
+q,r = np.linalg.qr(A)
+# if the rank of A is n, then the first n columns of q form a basis for the column space of A
+{% endhighlight %}
+
 
 
 
