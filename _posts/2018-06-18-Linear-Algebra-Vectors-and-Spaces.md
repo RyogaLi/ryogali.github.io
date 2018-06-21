@@ -164,7 +164,7 @@ If we have a set of vectors $$B = \{b_{1}, b_{2}, ..., b_{m}\} $$ where $$m< n$$
 We define another set $$B_{1}' = \{a_{1}, b_{1}, b_{2}, ..., b_{n}\}$$ and this set is Linearly dependent. Because set $$A$$
 is a basis of $$V$$ and set $$B$$ span $$V$$ which means all the components in set $$B$$ and construct any member of $$V$$.
 
-$$\therefore a_{1} = d_{1}b_{1} + d_{2}b{2} + ... + d_{m}b_{m}$$ and at least one $$b$$ is non-zero.
+$$\therefore a_{1} = d_{1}b_{1} + d_{2}b_{2} + ... + d_{m}b_{m}$$ and at least one $$b$$ is non-zero.
 
 Lets say one of the coefficient of $$b$$ is $$d_{i}$$ and it is non-zero, by definition, we can represent $$b_{i}$$ with 
 an equation of $$d_{i}$$ and everything else. If we assume $$b_{i} = b_{1}$$, our new set:
@@ -178,6 +178,9 @@ $$B_{m} = \{a_{1}, a_{2}, ..., a_{m}\}$$ spans $$V$$ where $$m < n$$
 Hence:
 
 $$A = \{a_{1}, a_{2}, ..., a_{m}, ..., a_{n}\}$$ where $$n > m$$
+
+However, if $$B_{m}$$ spans $$V$$, it means that $$a_{n}$$ can be represented as some linear combination of the elements in 
+$$B_{m}$$. Set $$A$$ is no longer basis for $$V$$ since it's not linearly independent. Proof by contradiction.
 
 
 
