@@ -27,3 +27,13 @@ vector $$\begin{bmatrix}x \\y \end{bmatrix}$$ must land on
 
 $$x \cdot \begin{bmatrix}a \\c \end{bmatrix} + y \cdot \begin{bmatrix}b \\d \end{bmatrix} = \begin{bmatrix}ax +by \\cx+dy \end{bmatrix}$$
 
+Matrix product with vecotrs is always linear transformation.
+
+$$\mathbf{A} = \begin{bmatrix}\mathbf{v_{1}}, \mathbf{v_{1}}, ..., \mathbf{v_{n}} \end{bmatrix} $$
+
+$$ T(\mathbf{x}) = \mathbf{A}\mathbf{x} $$  and $$T: \mathbb{R}^{n} \to \mathbb{R}^{m}$$
+
+**Identity matrix** has 1s on the diagonal and 0s elsewhere. When we multiply a identity matrix 
+with a vecotr, you get the same vector. If we have an $$n\times n$$ identity matrix, all the column
+vectors in that matrix construct the **standard basis for \mathbf{R}^{n}$$**
+
