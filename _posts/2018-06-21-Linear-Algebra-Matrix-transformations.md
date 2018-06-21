@@ -4,9 +4,9 @@ title:  "Linear Algebra: Matrix Transformations"
 tags: [Linear Algebra, Notes, Basic Math]
 ---
 
-#### Define a function ####
+#### Linear transformation ####
 
-A function $$f:\mathbb{R}^n \to \mathbb{R}^m$$
+A function is defined as $$f:\mathbb{R}^n \to \mathbb{R}^m$$
 
 If we have a function $$f(\begin{bmatrix}x_{1} \\x_{2} \\x_{3} \end{bmatrix}) = \begin{bmatrix}x_{1}+x_{2} \\3x_{3} \end{bmatrix}$$, we call this **Transformation** which is 
 a function operating on vectors and is represented by $$T$$
@@ -14,7 +14,7 @@ a function operating on vectors and is represented by $$T$$
 **Linear transformation:** for a transformation $$T: \mathbb{R}^{n} \to \mathbb{R}^{m} $$, it is a 
 linear transformation if and only if: 
 * $$ \overrightharpoon{a}, \overrightharpoon{b} \in \mathbb{R}^{n} $$
-* $$T({\overrightharpoon{a}, \overrightharpoon{b}) = T(\overrightharpoon{a}) + T(\overrightharpoon{b})$$
+* $$T(\overrightharpoon{a}, \overrightharpoon{b}) = T(\overrightharpoon{a}) + T(\overrightharpoon{b})$$
 * $$T(c\overrightharpoon{a}) = cT(\overrightharpoon{a})$$
 
 In general, each vector $$\begin{bmatrix}x \\y \end{bmatrix}$$ (two dimentional) can be froken down as:
