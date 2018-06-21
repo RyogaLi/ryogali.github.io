@@ -35,5 +35,14 @@ $$ T(\mathbf{x}) = \mathbf{A}\mathbf{x} $$  and $$T: \mathbb{R}^{n} \to \mathbb{
 
 **Identity matrix** has 1s on the diagonal and 0s elsewhere. When we multiply a identity matrix 
 with a vecotr, you get the same vector. If we have an $$n\times n$$ identity matrix, all the column
-vectors in that matrix construct the **standard basis for \mathbf{R}^{n}$$**
+vectors in that matrix construct the **standard basis for $$\mathbf{R}^{n}$$**
+
+If we have a transformation $$T: \mathbb{R}^{2} \to \mathbb{R}^3$$, $$ T(x_{1}, x_{2}) = (x_{1} +3x_{2}, 5x_{2}-x_{1}, 4x_{1} + x_{2}) $$
+
+The standard basis (identity matrix) of $$\mathbb{R}^{2}$$ is $$I_{2} = \begin{bmatrix}1 & 0 \\0 & 1 \end{bmatrix}$$ then we can apply
+the transformation to the column vector to the identity matrix:
+
+$$ T(\begin{bmatrix}1 \\ 0\end{bmatrix}) = \begin{bmatrix}1 \\ -1\\ 4\end{bmatrix}$$ and $$ T(\begin{bmatrix}0 \\ 1 \end{bmatrix}) = \begin{bmatrix}3 \\ 5 \\ 1\end{bmatrix}$$
+
+
 
