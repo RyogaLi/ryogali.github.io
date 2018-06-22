@@ -29,7 +29,7 @@ $$x \cdot \begin{bmatrix}a \\c \end{bmatrix} + y \cdot \begin{bmatrix}b \\d \end
 
 Matrix product with vecotrs is always linear transformation.
 
-$$\mathbf{A} = \begin{bmatrix}\mathbf{v_{1}}, \mathbf{v_{1}}, ..., \mathbf{v_{n}} \end{bmatrix} $$
+$$\mathbf{A} = \begin{bmatrix}\mathbf{v_{1}}, \mathbf{v_{2}}, ..., \mathbf{v_{n}} \end{bmatrix} $$
 
 $$ T(\mathbf{x}) = \mathbf{A}\mathbf{x} $$  and $$T: \mathbb{R}^{n} \to \mathbb{R}^{m}$$
 
@@ -58,4 +58,19 @@ $$T(V)$$ is a subspace.
 
 $$T(\overrightharpoon{x}) = \mathbf{A}\overrightharpoon{x}$$
 
-The image of $$\mathbf{R}^{n}$$ under $$T$$ is $$im(T) = \{ \mathbb{A}\overrightharpoon{x} \vert \overrightharpoon{x} \in \mathbf{R}^{n} \}$$
+The image of $$\mathbf{R}^{n}$$ under $$T$$ is $$im(T) = \{ \mathbf{A}\overrightharpoon{x} \vert \overrightharpoon{x} \in \mathbf{R}^{n} \}$$
+
+$$\mathbf{A} = \begin{bmatrix}\mathbf{a_{1}}, \mathbf{a_{2}}, ..., \mathbf{a_{n}} \end{bmatrix} \begin{bmatrix}x_{1} \\x_{2} \\ x_{n} \end{bmatrix}$$
+
+The image of a linear transformation matrix is equivalent to its column space。
+
+When an image is thesubset of a function's codomain which is the output of the cuntion from a subset of its domain, the **preimage** 
+of a particular subset $$S$$ of the codomain of a function is the set of all elements of the domain that 
+map to the members of $$S$$.
+
+Example:
+
+$$T: \mathbb{R}^{2} \to \mathbb{R}^{2}$$ where $$T(\overrightharpoon{x}) = \begin{bmatrix}1 & 3 \\ 2 & 6\end{bmatrix} \begin{bmatrix}x_{1}\\x_{2} \end{bmatrix}$$ and 
+$$ S = \{ \begin{bmatrix}0\\0\end{bmatrix}, \begin{bmatrix}1 \\ 2\end{bmatrix}\} $$. What are all of the 
+vectors in out domain maps to $$S$$? (the preimage of $$S$$ under $$T$$)
+
