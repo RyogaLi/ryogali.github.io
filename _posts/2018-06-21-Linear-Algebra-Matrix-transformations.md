@@ -87,3 +87,5 @@ The solution set with $$x_{2} = t$$, $$t\in \mathbf{R}$$
 
 $$ \begin{bmatrix}x_{1}\\x_{2} \end{bmatrix} = t \begin{bmatrix}-3\\1 \end{bmatrix}$$ and 
 $$ \begin{bmatrix}x_{1}\\x_{2} \end{bmatrix} = \begin{bmatrix}1\\0 \end{bmatrix} + t \begin{bmatrix}-3\\1 \end{bmatrix}$$
+
+**Kernel of T:** $$Ker(T) = \{\overrightharpoon{x} \in \mathbf{R}^2 \vert T(\overrightharpoon{x}) = \mathbb{0}\}$$
