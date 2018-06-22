@@ -48,3 +48,14 @@ Now we can re-write the transformation as
 
 $$ T(\begin{bmatrix}x_{1} \\ x_{2}\end{bmatrix}) = \begin{bmatrix}1 &3 \\-1& 5 \\ 4 & 1\end{bmatrix} \begin{bmatrix}x_{1} \\ x_{2}\end{bmatrix}$$
 
+---
+
+#### Image of a transformation ####
+
+If $$V$$ is a subspace in $$\mathbf{R}^{n}$$, $$\overrightharpoon{a}, \overrightharpoon{b} \in V$$, and 
+a transformation $$T: \mathbf{R}^{n} \to \mathbf{R}^{m}$$. We say that $$T(V)$$: image of $$V$$ under $$T$$.
+$$T(V)$$ is a subspace.
+
+$$T(\overrightharpoon{x}) = \mathbf{A}\overrightharpoon{x}$$
+
+The image of $$\mathbf{R}^{n}$$ under $$T$$ is $$im(T) = \{ \mathbb{A}\overrightharpoon{x} \vert \overrightharpoon{x} \in \mathbf{R}^{n} \}$$

@@ -73,8 +73,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-06-21-Linear-Algebra-Matrix-transformations.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="500">
-                <caret line="48" column="145" lean-forward="false" selection-start-line="48" selection-start-column="145" selection-end-line="48" selection-end-column="145" />
+              <first_editor relative-caret-position="528">
+                <caret line="60" column="57" lean-forward="false" selection-start-line="60" selection-start-column="57" selection-end-line="60" selection-end-column="57" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -412,13 +412,6 @@
       <option name="presentableId" value="Default" />
       <updated>1486851692241</updated>
     </task>
-    <task id="LOCAL-00065" summary="update LA">
-      <created>1529342328366</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1529342328366</updated>
-    </task>
     <task id="LOCAL-00066" summary="update LA">
       <created>1529342431068</created>
       <option name="number" value="00066" />
@@ -755,7 +748,14 @@
       <option name="project" value="LOCAL" />
       <updated>1529614124617</updated>
     </task>
-    <option name="localTasksCounter" value="114" />
+    <task id="LOCAL-00114" summary="identity matrix">
+      <created>1529614266609</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1529614266609</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1016,8 +1016,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-06-21-Linear-Algebra-Matrix-transformations.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="500">
-            <caret line="48" column="145" lean-forward="false" selection-start-line="48" selection-start-column="145" selection-end-line="48" selection-end-column="145" />
+          <first_editor relative-caret-position="528">
+            <caret line="60" column="57" lean-forward="false" selection-start-line="60" selection-start-column="57" selection-end-line="60" selection-end-column="57" />
             <folding />
           </first_editor>
           <second_editor />
