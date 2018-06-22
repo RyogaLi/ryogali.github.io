@@ -76,4 +76,14 @@ We can write this in another way:
 
 $$T'(S) = \{\overrightharpoon{x} \in \mathbf{R}^2 \vert T(\overrightharpoon{x}) \in S \} = 
 \{\overrightharpoon{x} \in \mathbf{R}^2 \vert \mathbf{A}\overrightharpoon{x} = \begin{bmatrix}0\\0\end{bmatrix} or  
- \mathbf{A}\overrightharpoon{x} = \begin{bmatrix}1\\2\end{bmatrix}\}$$
+\mathbf{A}\overrightharpoon{x} = \begin{bmatrix}1\\2\end{bmatrix}\}$$
+
+To solve this euqation we need to find out the solution of all the $$x$$:
+
+$$\begin{bmatrix}1 & 3 \\ 2 & 6\end{bmatrix} \begin{bmatrix}x_{1}\\x_{2} \end{bmatrix} = \begin{bmatrix}0\\0\end{bmatrix} $$ and 
+$$ \begin{bmatrix}1 & 3 \\ 2 & 6\end{bmatrix} \begin{bmatrix}x_{1}\\x_{2} \end{bmatrix} = \begin{bmatrix}1\\2\end{bmatrix}\}$$
+
+The solution set with $$x_{2} = t$$, $$t\in \mathbf{R}$$
+
+$$ \begin{bmatrix}x_{1}\\x_{2} \end{bmatrix} = t \begin{bmatrix}-3\\1 \end{bmatrix}$$ and 
+$$ \begin{bmatrix}x_{1}\\x_{2} \end{bmatrix} = \begin{bmatrix}1\\0 \end{bmatrix} + t \begin{bmatrix}-3\\1 \end{bmatrix}$$
