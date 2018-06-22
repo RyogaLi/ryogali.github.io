@@ -56,13 +56,11 @@ If $$V$$ is a subspace in $$\mathbf{R}^{n}$$, $$\overrightharpoon{a}, \overright
 a transformation $$T: \mathbf{R}^{n} \to \mathbf{R}^{m}$$. We say that $$T(V)$$: image of $$V$$ under $$T$$.
 $$T(V)$$ is a subspace.
 
-$$T(\overrightharpoon{x}) = \mathbf{A}\overrightharpoon{x}$$
-
-The image of $$\mathbf{R}^{n}$$ under $$T$$ is $$im(T) = \{ \mathbf{A}\overrightharpoon{x} \vert \overrightharpoon{x} \in \mathbf{R}^{n} \}$$
+If $$T(\overrightharpoon{x}) = \mathbf{A}\overrightharpoon{x}$$, the image of $$\mathbf{R}^{n}$$ under $$T$$ is $$im(T) = \{ \mathbf{A}\overrightharpoon{x} \vert \overrightharpoon{x} \in \mathbf{R}^{n} \}$$
 
 $$\mathbf{A} = \begin{bmatrix}\mathbf{a_{1}}, \mathbf{a_{2}}, ..., \mathbf{a_{n}} \end{bmatrix} \begin{bmatrix}x_{1} \\x_{2} \\ x_{n} \end{bmatrix}$$
 
-The image of a linear transformation matrix is equivalent to its column space。
+The image of a linear transformation matrix is equivalent to its column space.
 
 When an image is thesubset of a function's codomain which is the output of the cuntion from a subset of its domain, the **preimage** 
 of a particular subset $$S$$ of the codomain of a function is the set of all elements of the domain that 
@@ -72,5 +70,10 @@ Example:
 
 $$T: \mathbb{R}^{2} \to \mathbb{R}^{2}$$ where $$T(\overrightharpoon{x}) = \begin{bmatrix}1 & 3 \\ 2 & 6\end{bmatrix} \begin{bmatrix}x_{1}\\x_{2} \end{bmatrix}$$ and 
 $$ S = \{ \begin{bmatrix}0\\0\end{bmatrix}, \begin{bmatrix}1 \\ 2\end{bmatrix}\} $$. What are all of the 
-vectors in out domain maps to $$S$$? (the preimage of $$S$$ under $$T$$)
+vectors in out domain maps to $$S$$? (the preimage of $$S$$ under the transformation $$T$$)
 
+We can write this in another way:
+
+$$T'(S) = \{\overrightharpoon{x} \in \mathbf{R}^2 \vert T(\overrightharpoon{x}) \in S \} = 
+\{\overrightharpoon{x} \in \mathbf{R}^2 \vert \mathbf{A}\overrightharpoon{x} = \begin{bmatrix}0\\0\end{bmatrix} or  
+ \mathbf{A}\overrightharpoon{x} = \begin{bmatrix}1\\2\end{bmatrix}\}$$
