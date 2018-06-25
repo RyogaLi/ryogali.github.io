@@ -107,12 +107,12 @@ $$(S+T)\overrightharpoon{x} = A\overrightharpoon{x} + B\overrightharpoon{x} = x_
 
 ---
 
-#### Rotation in $$\mathbb{R}^{2}$$ ####
+#### Rotations ####
 
-$$Rot_{\theta}(\mathbf{x})$$: counter clockwise $$\theta$$ degree rotation of $$\mathbf{x}$$ - $$ Rot_{\theta}: \mathbb{R}^{2] \to \mathbb{R}^{2}$$
+$$Rot_{\theta}(\mathbf{x})$$: counter clockwise $$\theta$$ degree rotation of $$\mathbf{x}$$ - $$ Rot_{\theta}: \mathbb{R}^{2} \to \mathbb{R}^{2}$$
 
 $$Rot_{\theta}(\mathbf{x}) = \begin{bmatrix}cos(\theta) & sin(\theta)\\sin(\theta) & cos(\theta) \end{bmatrix} \begin{bmatrix}x_{1}\\x_{2} \end{bmatrix}$$
 
-
+$$Rot_{\theta}: \mathbb{R}^{3} \to \mathbb{R}^{3}$$: Rotate around the x-axis
 
 
