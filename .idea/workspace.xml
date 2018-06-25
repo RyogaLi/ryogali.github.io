@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cd68d1c7-b462-4f6e-8a29-c118cdc0ee23" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2018-06-21-Linear-Algebra-Matrix-transformations.md" afterPath="$PROJECT_DIR$/_posts/2018-06-21-Linear-Algebra-Matrix-transformations.md" />
     </list>
     <ignored path="my-git-page.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -412,13 +411,6 @@
       <option name="presentableId" value="Default" />
       <updated>1486851692241</updated>
     </task>
-    <task id="LOCAL-00073" summary="update LA">
-      <created>1529344433068</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1529344433068</updated>
-    </task>
     <task id="LOCAL-00074" summary="update LA">
       <created>1529345465099</created>
       <option name="number" value="00074" />
@@ -755,7 +747,14 @@
       <option name="project" value="LOCAL" />
       <updated>1529951588316</updated>
     </task>
-    <option name="localTasksCounter" value="122" />
+    <task id="LOCAL-00122" summary="kernel">
+      <created>1529956084744</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1529956084744</updated>
+    </task>
+    <option name="localTasksCounter" value="123" />
     <servers />
   </component>
   <component name="TodoView">
