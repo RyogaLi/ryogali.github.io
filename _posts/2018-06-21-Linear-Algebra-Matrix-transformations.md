@@ -100,5 +100,19 @@ $$S: \mathbb{R}^{n} \to \mathbb{R}^{m}$$ and $$T:\mathbb{R}^{n} \to \mathbb{R}^{
 
 **Def:** $$(cS)(\overrightharpoon{x}) = c(S(\overrightharpoon{x}))$$ where $$cS:\mathbb{R}^{n} \to \mathbb{R}^{m}$$
 
+If we have $$S(\overrightharpoon{x}) = A\overrightharpoon{x}$$ and $$T(\overrightharpoon{x}) = B\overrightharpoon{x}$$, then 
+$$(S+T)\overrightharpoon{x} = A\overrightharpoon{x} + B\overrightharpoon{x} = x_{1}(a_{1}+b_{1}) + x_{2}(a_{2}+b_{2}) + ... + x_{n}(a_{n}+b_{n})$$
+
+(Similar proof for scalars)
+
+---
+
+#### Rotation in $$\mathbb{R}^{2}$$ ####
+
+$$Rot_{\theta}(\mathbf{x})$$: counter clockwise $$\theta$$ degree rotation of $$\mathbf{x}$$ - $$ Rot_{\theta}: \mathbb{R}^{2] \to \mathbb{R}^{2}$$
+
+$$Rot_{\theta}(\mathbf{x}) = \begin{bmatrix}cos(\theta) & sin(\theta)\\sin(\theta) & cos(\theta) \end{bmatrix} \begin{bmatrix}x_{1}\\x_{2} \end{bmatrix}$$
+
+
 
 
