@@ -81,11 +81,24 @@ $$T'(S) = \{\overrightharpoon{x} \in \mathbf{R}^2 \vert T(\overrightharpoon{x}) 
 To solve this euqation we need to find out the solution of all the $$x$$:
 
 $$\begin{bmatrix}1 & 3 \\ 2 & 6\end{bmatrix} \begin{bmatrix}x_{1}\\x_{2} \end{bmatrix} = \begin{bmatrix}0\\0\end{bmatrix} $$ and 
-$$ \begin{bmatrix}1 & 3 \\ 2 & 6\end{bmatrix} \begin{bmatrix}x_{1}\\x_{2} \end{bmatrix} = \begin{bmatrix}1\\2\end{bmatrix}\}$$
+$$ \begin{bmatrix}1 & 3 \\ 2 & 6\end{bmatrix} \begin{bmatrix}x_{1}\\x_{2} \end{bmatrix} = \begin{bmatrix}1\\2\end{bmatrix}$$
 
 The solution set with $$x_{2} = t$$, $$t\in \mathbf{R}$$
 
 $$ \begin{bmatrix}x_{1}\\x_{2} \end{bmatrix} = t \begin{bmatrix}-3\\1 \end{bmatrix}$$ and 
-$$ \begin{bmatrix}x_{1}\\x_{2} \end{bmatrix} = \begin{bmatrix}1\\0 \end{bmatrix} + t \begin{bmatrix}-3\\1 \end{bmatrix}$$
+$$ \begin{bmatrix}x_{1}\\x_{2} \end{bmatrix} = \begin{bmatrix}1\\0 \end{bmatrix} + t \begin{bmatrix}-3\\1 \end{bmatrix} $$
 
 **Kernel of T:** $$Ker(T) = \{\overrightharpoon{x} \in \mathbf{R}^2 \vert T(\overrightharpoon{x}) = \mathbb{0}\}$$
+
+---
+
+#### Sums and scalar multiples of linear transformations ####
+
+$$S: \mathbb{R}^{n} \to \mathbb{R}^{m}$$ and $$T:\mathbb{R}^{n} \to \mathbb{R}^{m}$$
+
+**Def:** $$(S+T)\overrightharpoon{x} = S(\overrightharpoon{x}) + T(\overrightharpoon{x})$$ where $$(S+T):\mathbb{R}^{n} \to \mathbb{R}^{m}$$
+
+**Def:** $$(cS)(\overrightharpoon{x}) = c(S(\overrightharpoon{x}))$$ where $$cS:\mathbb{R}^{n} \to \mathbb{R}^{m}$$
+
+
+
