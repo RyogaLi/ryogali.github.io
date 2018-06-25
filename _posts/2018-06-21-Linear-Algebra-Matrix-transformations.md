@@ -113,6 +113,19 @@ $$Rot_{\theta}(\mathbf{x})$$: counter clockwise $$\theta$$ degree rotation of $$
 
 $$Rot_{\theta}(\mathbf{x}) = \begin{bmatrix}cos(\theta) & sin(\theta)\\sin(\theta) & cos(\theta) \end{bmatrix} \begin{bmatrix}x_{1}\\x_{2} \end{bmatrix}$$
 
-$$Rot_{\theta}: \mathbb{R}^{3} \to \mathbb{R}^{3}$$: Rotate around the x-axis
+$$Rot_{\theta}: \mathbb{R}^{3} \to \mathbb{R}^{3}$$: Rotate around the x-axis. We can apply the rotations to the 
+column vectors of the identity matrices and find out the rules for rotations. 
+
+---
+
+#### Unit vector ####
+
+Also called a **normalized vector**, vector that has "length" of 1.
+
+$$\overrightharpoon{u} \in \mathbb{R}^{n}$$, $$ \Vert \overrightharpoon{u} \Vert = 1$$
+
+The unit vectors in the direction of the x, y and z axes of a three dimensional Cartesian coordinate system:
+
+$$\hat{i} = \begin{bmatrix}1 \\0 \\ 0\end{bmatrix}, \hat{j} = \begin{bmatrix}0 \\1 \\ 0\end{bmatrix}, \hat{k} = \begin{bmatrix}0 \\0 \\ 1\end{bmatrix}$$
 
 
