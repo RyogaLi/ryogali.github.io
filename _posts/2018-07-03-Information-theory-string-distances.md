@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Distance between strings with python examples"
-tags: [Machine Learning, Ongoing]
+tags: [Machine Learning, Bioinformatics]
 ---
 
 ### Distance between strings ###
@@ -28,16 +28,14 @@ def hamming_dis(A, B):
 
 ---
 
-#### 2. Levenshtein distancebetween two strings is no greater than the sum of their ####
+#### 2. Levenshtein distance ####
 
 It measures the difference between two sequences. The distance between two words is the minimum number of single-character edits (insertions, deletions or substitutions) required 
 to change one word into the other. 
 
-$$\qquad \operatorname {lev} _{a,b}(i,j)={\begin{cases}\max(i,j)&{\text{ if }}\min(i,j)=0,\\\min {\begin{cases}\operatorname {lev} _{a,b}(i-1,j)+1\\\operatorname {lev} _{a,b}(i,j-1)+1\\\operatorname {lev} _{a,b}(i-1,j-1)+1_{(a_{i}\neq b_{j})}\end{cases}}&{\text{ otherwise.}}\end{cases}} $$
-
 * It is at least the difference of the sizes of the two strings
 * It is at most the length of the longer string
-* The Levenshtein distancebetween two strings is no greater than the sum of their Levenshtein distances from a third string
+* The Levenshtein distance between two strings is no greater than the sum of their Levenshtein distances from a third string
 
 {% highlight python %}
 
@@ -112,4 +110,18 @@ print(iterative_levenshtein("abc", "xyz", costs=(2, 2, 1)))
 
 ---
 
-#### 3. Jaro–Winkler distance ####
+#### 3. Damerau–Levenshtein distance ####
+
+Compare to the classical Levenshtein distance, this algorithm also includes transpositions of two adjacent characters. It is closely realated to Needleman–Wunsch algorithm and 
+Smith–Waterman algorithm which are mostly used in seuqnce alignment (global and local).
+
+
+---
+
+#### 4. Jaro–Winkler distance ####
+
+The Jaro algorithm is a measure of characters in common, when they are no more than half the length of the longer string in distance, with consideration for transpositions.
+Winkler modified this algorithm to support the idea that differences near the start of the string are more significant than differences near the end of the string. 
+
+
+
