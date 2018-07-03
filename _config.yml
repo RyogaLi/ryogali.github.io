@@ -15,7 +15,8 @@ theme_settings:
 
   # Header and footer text
   header_text: > #two or three lines to describe your site
-     <p>In all chaos there is a cosmos - Carl Jung </p>
+     <p>In all chaos there is a cosmos </p>
+     <p> - Carl Jung </p>
   header_text_feature_image: assets/img/pexels/stars-bg.jpg
   footer_text: 
    # Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
