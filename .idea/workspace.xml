@@ -74,7 +74,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="534">
-                <caret line="129" column="0" lean-forward="true" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+                <caret line="136" column="25" lean-forward="false" selection-start-line="136" selection-start-column="25" selection-end-line="136" selection-end-column="25" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -412,13 +412,6 @@
       <option name="presentableId" value="Default" />
       <updated>1486851692241</updated>
     </task>
-    <task id="LOCAL-00076" summary="test cases">
-      <created>1529350394831</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1529350394831</updated>
-    </task>
     <task id="LOCAL-00077" summary="test cases">
       <created>1529350457950</created>
       <option name="number" value="00077" />
@@ -755,7 +748,14 @@
       <option name="project" value="LOCAL" />
       <updated>1529956291634</updated>
     </task>
-    <option name="localTasksCounter" value="125" />
+    <task id="LOCAL-00125" summary="unit vector">
+      <created>1529957272268</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1529957272268</updated>
+    </task>
+    <option name="localTasksCounter" value="126" />
     <servers />
   </component>
   <component name="TodoView">
@@ -849,7 +849,8 @@
     <MESSAGE value="identity matrix" />
     <MESSAGE value="preimage example" />
     <MESSAGE value="kernel" />
-    <option name="LAST_COMMIT_MESSAGE" value="kernel" />
+    <MESSAGE value="unit vector" />
+    <option name="LAST_COMMIT_MESSAGE" value="unit vector" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1019,7 +1020,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="534">
-            <caret line="129" column="0" lean-forward="true" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+            <caret line="136" column="25" lean-forward="false" selection-start-line="136" selection-start-column="25" selection-end-line="136" selection-end-column="25" />
             <folding />
           </first_editor>
           <second_editor />

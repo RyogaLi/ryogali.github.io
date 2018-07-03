@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Linear Algebra: Matrix Transformations"
-tags: [Linear Algebra, Notes, Basic Math]
+tags: [Linear Algebra, Notes, Basic Math, Ongoing]
 ---
 
 #### Linear transformation ####
@@ -128,4 +128,10 @@ The unit vectors in the direction of the x, y and z axes of a three dimensional 
 
 $$\hat{i} = \begin{bmatrix}1 \\0 \\ 0\end{bmatrix}, \hat{j} = \begin{bmatrix}0 \\1 \\ 0\end{bmatrix}, \hat{k} = \begin{bmatrix}0 \\0 \\ 1\end{bmatrix}$$
 
+---
 
+#### Projections ####
+
+$$Proj_{L}(\mathbf{x})$$: The orthogonal prjection of x onto a straight line parallel to L.
+
+$$Proj_{L}(\mathbf{x}) = $$
