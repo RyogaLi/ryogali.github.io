@@ -113,15 +113,3 @@ print(iterative_levenshtein("abc", "xyz", costs=(2, 2, 1)))
 ---
 
 #### 3. Jaro–Winkler distance ####
-
-The Jaro similarity $$ sim_{j} $$ of two strings $$s_1$$ and $$s_2$$ is defined as:
-
-%$$ sim_{j}=\left\{{\begin{array}{l l}0&{\text{if }}m=0\\{\frac {1}{3}}\left({\frac {m}{|s_{1}|}}+{\frac {m}{|s_{2}|}}+{\frac {m-t}{m}}\right)&{\text{otherwise}}\end{array}}\right. $$
-
-Where:
-
-* $$|s_{i}|$$ is the length of the string $$s_{i}$$
-* $$m$$ is the number of matching characters
-* $$t$$ is half the number of **transpositions**. Each character of $$ s_{1} $$ is compared with all its matching characters in  $$ s_{2} $$. The number of matching (but different sequence order) characters divided by 2 defines the number of transpositions.
-
-The Jaro–Winkler similarity $$ sim_{j} $$ of two strings $$s_1$$ and $$s_2$$ is defined as:
