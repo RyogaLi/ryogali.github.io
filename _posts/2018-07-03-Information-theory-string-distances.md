@@ -96,8 +96,8 @@ def iterative_levenshtein(s, t, costs=(1, 1, 1)):
             dist[row][col] = min(dist[row-1][col] + deletes,
                                  dist[row][col-1] + inserts,
                                  dist[row-1][col-1] + cost) # substitution
-    for r in range(rows):
-        print(dist[r])
+ #   for r in range(rows):
+ #       print(dist[r])
     
  
     return dist[row][col]
