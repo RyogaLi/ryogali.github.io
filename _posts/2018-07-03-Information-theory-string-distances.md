@@ -6,7 +6,7 @@ tags: [Machine Learning, Bioinformatics]
 
 ### Distance between strings ###
 
-Here I describe four different algorithems to calculate distance between two strings(sequences) with python code examples.
+Here I describe some different algorithems to calculate distance between two strings(sequences) with python code examples.
 
 ---
 
@@ -124,4 +124,23 @@ The Jaro algorithm is a measure of characters in common, when they are no more t
 Winkler modified this algorithm to support the idea that differences near the start of the string are more significant than differences near the end of the string. 
 
 
+--- 
 
+#### 5. Simple approach - Python lib **difflib** ####
+
+[From the documentation](https://docs.python.org/3.4/library/difflib.html#difflib.get_close_matches)
+
+{% highlight python %}
+import difflib
+# difflib.get_close_matches(word, possibilities, n, cutoff)
+# word: a sequence for which close matches are desired
+# possibilities: possibilities is a list of sequences
+# n (default 3) is the maximum number of close matches to return; n must be greater than 0
+# cutoff (default 0.6) is a float in the range [0, 1]. Possibilities that don’t score at least that similar to word are ignored.
+
+a = "NNNNNACTNNN"
+seqs = ["CTGGAACTACC", "GTGTACGACCC"]
+return = difflib.get_close_matches(a, b, 1, 0.2)
+# ['CTGGAACTACC']
+# in this case we accept cutoff >= 0.2 (3bp match out of 11)
+{% endhighlight %}
