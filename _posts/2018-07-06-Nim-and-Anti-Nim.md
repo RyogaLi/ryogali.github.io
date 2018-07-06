@@ -59,7 +59,7 @@ the binary representation of numbers together in a way that:
 
 $$ 1+0=1=0+1$$ and $$ 1+ 1=0=0+0$$
 
-We note that any $$x \bigoplus x =0$$, we provide the following proof of Nim:
+We note that any $$x \oplus x =0$$, we provide the following proof of Nim:
 
 **Theorem**: The winning stratege in normal nim play is to finish every move 
 with a Nim-sum of 0.
@@ -70,14 +70,23 @@ must change it.
 Assume that we have $$n$$ heaps with $$x_{1}, x_{2}, ...,x_{n}$$ number of objects in each heap.
 The Nim-sum of all the heaps before the move will be:
 
-$$S = x_{1} \bigoplus x_{2} \bigoplus ... \bigoplus x_{n}$$
+$$S = x_{1} \oplus x_{2} \oplus ... \oplus x_{n}$$
 
 Then we define the Nim-sum of all the heaps after the move:
 
-$$T = y_{1} \bigoplus y_{2} \bigoplus ... \bigoplus y_{n}$$
+$$T = y_{1} \oplus y_{2} \oplus ... \oplus y_{n}$$
 
-If $$S =0$$, there is a $$y_{m}$$ after the move that $$y_{m} != x_{k}$$,
-and the rest piles does not change.
+If $$S =0$$, there is a $$y_{m}$$ after the move that $$y_{m} != x_{m}$$,
+and the rest piles does not change. Then we have:
+
+$$ \begin{aligned} 
+T &= 0 \oplus T
+&= S \oplus S \oplus T
+&= S \oplus (x_{1} \oplus x_{2} \oplus ... \oplus x_{n}) \oplus (y_{1} \oplus y_{2} \oplus ... \oplus y_{n})
+&= S \oplus (x_{1) \oplus y_{1}) \oplus (x_{2) \oplus y_{2}) \oplus ... \oplus (x_{k) \oplus y_{k}) \oplus ... \oplus (x_{n) \oplus y_{n}) 
+&= S \oplus x_{k) \oplus y_{k}
+\end{aligned}$$
+
 
 
 
