@@ -88,9 +88,27 @@ T &= 0 \oplus T \\
 
 \end{aligned}$$
 
-Hence if we started $$S = 0$$, $$T$$ must be non zero since $$x_{m) \oplus y_{m}$$ will never be $$0$$
+Hence if we started $$S = 0$$, $$T$$ must be non zero since $$x_{m} \oplus y_{m}$$ will never be zero.
 
 **Lemma 2:** It is always possible to make the nim-sum 0 on your turn if
 it wasn’t already 0 at the beginning of your turn.
 
+Lets say we started from the above position which is non-zero. We are making a move 
+so that $$y_{m} = S \oplus x_{m} $$. Hence we need to remove $$x_{m} - y_{m}$$ stones 
+from the heap.
 
+$$ \begin{aligned} 
+T &= S \oplus x_{m} \oplus y_{m} \\ 
+& = S \oplus x_{m} \oplus S \oplus x_{m} \\
+& = 0
+\end{aligned}$$
+
+**Proof:** If you start off the game by making the Nim-sum zero, then 
+on each turn your opponent will make the nim-sum non-zero and you can
+reset it back to zero. Eventually on your turn there will be no stones
+left with a nim-sum of 0. 
+
+**Proof for anti-nim:** In this case you want to set the sum to 1 instead of
+zero.
+
+End of proof
