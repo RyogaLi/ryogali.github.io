@@ -44,8 +44,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-07-06-Nim-and-Anti-Nim.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="408">
-                <caret line="89" column="0" lean-forward="true" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+              <first_editor relative-caret-position="386">
+                <caret line="91" column="38" lean-forward="true" selection-start-line="91" selection-start-column="38" selection-end-line="91" selection-end-column="38" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -423,13 +423,6 @@
       <option name="presentableId" value="Default" />
       <updated>1486851692241</updated>
     </task>
-    <task id="LOCAL-00089" summary="replaced vert">
-      <created>1529433864419</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1529433864419</updated>
-    </task>
     <task id="LOCAL-00090" summary="replaced vert">
       <created>1529434955643</created>
       <option name="number" value="00090" />
@@ -766,7 +759,14 @@
       <option name="project" value="LOCAL" />
       <updated>1530906358679</updated>
     </task>
-    <option name="localTasksCounter" value="138" />
+    <task id="LOCAL-00138" summary="nim and anti-nim - lemma one">
+      <created>1530906949926</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1530906949926</updated>
+    </task>
+    <option name="localTasksCounter" value="139" />
     <servers />
   </component>
   <component name="TodoView">
@@ -837,7 +837,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="index" />
     <MESSAGE value="coming soon" />
     <MESSAGE value="main page" />
     <MESSAGE value="fixed bootstrap" />
@@ -862,7 +861,8 @@
     <MESSAGE value="unit vector" />
     <MESSAGE value="string distance" />
     <MESSAGE value="nim and anti-nim" />
-    <option name="LAST_COMMIT_MESSAGE" value="nim and anti-nim" />
+    <MESSAGE value="nim and anti-nim - lemma one" />
+    <option name="LAST_COMMIT_MESSAGE" value="nim and anti-nim - lemma one" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1049,8 +1049,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-07-06-Nim-and-Anti-Nim.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="408">
-            <caret line="89" column="0" lean-forward="true" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+          <first_editor relative-caret-position="386">
+            <caret line="91" column="38" lean-forward="true" selection-start-line="91" selection-start-column="38" selection-end-line="91" selection-end-column="38" />
             <folding />
           </first_editor>
           <second_editor />

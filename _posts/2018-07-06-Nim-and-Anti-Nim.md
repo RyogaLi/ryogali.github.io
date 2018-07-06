@@ -76,17 +76,16 @@ Then we define the Nim-sum of all the heaps after the move:
 
 $$T = y_{1} \oplus y_{2} \oplus ... \oplus y_{n}$$
 
-If $$S =0$$, there is a $$y_{m}$$ after the move that $$y_{m} != x_{m}$$,
+If $$S =0$$, there is a $$y_{m}$$ after the move that $$y_{m} \neq x_{m}$$,
 and the rest piles does not change. Then we have:
 
 $$ \begin{aligned} 
-T &= 0 \oplus T
-&= S \oplus S \oplus T
-&= S \oplus (x_{1} \oplus x_{2} \oplus ... \oplus x_{n}) \oplus (y_{1} \oplus y_{2} \oplus ... \oplus y_{n})
-&= S \oplus (x_{1) \oplus y_{1}) \oplus (x_{2) \oplus y_{2}) \oplus ... \oplus (x_{k) \oplus y_{k}) \oplus ... \oplus (x_{n) \oplus y_{n}) 
-&= S \oplus x_{k) \oplus y_{k}
+T &= 0 \oplus T \\
+&= S \oplus S \oplus T \\
+&= S \oplus (x_{1} \oplus x_{2} \oplus ... \oplus x_{n}) \oplus (y_{1} \oplus y_{2} \oplus ... \oplus y_{n}) \\
+&= S \oplus (x_{1) \oplus y_{1}) \oplus (x_{2) \oplus y_{2}) \oplus ... \oplus (x_{m) \oplus y_{m}) \oplus ... \oplus (x_{n) \oplus y_{n}) \\ 
+&= S \oplus x_{m) \oplus y_{m}
 \end{aligned}$$
-
 
 
 
