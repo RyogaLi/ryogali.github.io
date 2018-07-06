@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd68d1c7-b462-4f6e-8a29-c118cdc0ee23" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2018-07-06-Nim-and-Anti-Nim.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2018-07-06-Nim-and-Anti-Nim.md" afterPath="$PROJECT_DIR$/_posts/2018-07-06-Nim-and-Anti-Nim.md" />
     </list>
     <ignored path="my-git-page.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,8 +44,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-07-06-Nim-and-Anti-Nim.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="245">
-                <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+              <first_editor relative-caret-position="470">
+                <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -423,13 +423,6 @@
       <option name="presentableId" value="Default" />
       <updated>1486851692241</updated>
     </task>
-    <task id="LOCAL-00084" summary="test cases">
-      <created>1529424348196</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1529424348196</updated>
-    </task>
     <task id="LOCAL-00085" summary="test cases">
       <created>1529428224979</created>
       <option name="number" value="00085" />
@@ -766,7 +759,14 @@
       <option name="project" value="LOCAL" />
       <updated>1530803852564</updated>
     </task>
-    <option name="localTasksCounter" value="133" />
+    <task id="LOCAL-00133" summary="nim and anti-nim">
+      <created>1530902580234</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1530902580234</updated>
+    </task>
+    <option name="localTasksCounter" value="134" />
     <servers />
   </component>
   <component name="TodoView">
@@ -837,7 +837,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="empty web page created" />
     <MESSAGE value="index" />
     <MESSAGE value="coming soon" />
     <MESSAGE value="main page" />
@@ -862,7 +861,8 @@
     <MESSAGE value="kernel" />
     <MESSAGE value="unit vector" />
     <MESSAGE value="string distance" />
-    <option name="LAST_COMMIT_MESSAGE" value="string distance" />
+    <MESSAGE value="nim and anti-nim" />
+    <option name="LAST_COMMIT_MESSAGE" value="nim and anti-nim" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1049,8 +1049,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-07-06-Nim-and-Anti-Nim.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="245">
-            <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+          <first_editor relative-caret-position="470">
+            <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
