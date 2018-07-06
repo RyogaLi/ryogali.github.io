@@ -48,13 +48,13 @@ Lets say we have three heaps: $$S = (1, 3, 4)$$.
 
 In this case, the start position is always **N position** since the next person 
 can take all the things together, 0 must be a **P position**. 2 must be a **P position**
-since the only leagal move is to **N position**...
+since the only legal move is to **N position**...
 
 ---
 
 #### Nim Sum and the proof ####
 
-Now we define a binary operation called **Nim sum ($$\bigoplus$$)**, which is simply adding 
+Now we define a binary operation called **Nim sum ($$\oplus$$)**, which is simply adding 
 the binary representation of numbers together in a way that:
 
 $$ 1+0=1=0+1$$ and $$ 1+ 1=0=0+0$$
@@ -110,5 +110,3 @@ left with a nim-sum of 0.
 
 **Proof for anti-nim:** In this case you want to set the sum to 1 instead of
 zero.
-
-End of proof
