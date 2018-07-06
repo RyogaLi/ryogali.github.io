@@ -25,23 +25,37 @@ There are two possible versions of this game and two corresponding winning
 strategies that we will see. Note that these definitions extend beyond the
 game of Nim and can be used to talk about impartial games in general.
 
-• **Normal Play** The player to take the last stone (or in general to make
+* **Normal Play** The player to take the last stone (or in general to make
 the last move in a game) wins. This is called normal play since most
 impartial games are played this way, although Nim usually is not.
 
-• **Misere Play (Anti-Nim)** The player that is forced to take the last stone loses.
+* **Misere Play (Anti-Nim)** The player that is forced to take the last stone loses.
 
 ---
 
 Types of impartial game positions
-• A game is in a **P-position** if it secures a win for the Previous player
+
+* A game is in a **P-position** if it secures a win for the Previous player
 (the one who just moved).
-• A game is in a **N-position** if it secures a win for the Next player.
+
+* A game is in a **N-position** if it secures a win for the Next player.
 
 Then we can think about this problem as **backwards induction**. The **terminal position**
 of this game is always $$(0, 0, 0)$$ and we can label this as the **P-position**
 And that any position $$(0, 0, n)$$ is an **N position**.
 
-Lets say we have three heaps: $$S = (3, 4, 5)$$. 
+Lets say we have three heaps: $$S = (1, 3, 4)$$. 
 
-In this case, 
+In this case, the start position is always **N position** since the next person 
+can take all the things together, 0 must be a **P position**. 2 must be a **P position**
+since the only leagal move is to **N position**...
+
+-- 
+
+Now we define a binary operation called **Nim sum ($$$$)**, which is simply adding 
+the binary representation of numbers together in a way that:
+
+$$ 1+0=1=0+1$$ and $$ 1+ 1=0=0+0$$
+
+
+
