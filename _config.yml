@@ -18,8 +18,7 @@ theme_settings:
      <p>In all chaos there is a cosmos </p>
      <p> - Carl Jung </p>
   header_text_feature_image: assets/img/pexels/stars-bg.jpg
-  footer_text: 
-   # Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
+  footer_text: <p> &copy; </p>
 
   # Icons
   rss:  # Make sure you created a feed.xml with feed.xml layout
