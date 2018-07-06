@@ -83,11 +83,12 @@ $$ \begin{aligned}
 T &= 0 \oplus T \\
 &= S \oplus S \oplus T \\
 &= S \oplus (x_{1} \oplus x_{2} \oplus ... \oplus x_{n}) \oplus (y_{1} \oplus y_{2} \oplus ... \oplus y_{n}) \\
-&= S \oplus (x_{1) \oplus y_{1}) \oplus (x_{2) \oplus y_{2}) \oplus ... \oplus (x_{m) \oplus y_{m}) \oplus ... \oplus (x_{n) \oplus y_{n}) \\ 
-&= S \oplus x_{m) \oplus y_{m}
+&= S \oplus (x_{1} \oplus y_{1}) \oplus (x_{2} \oplus y_{2}) \oplus ... \oplus (x_{m} \oplus y_{m}) \oplus ... \oplus (x_{n} \oplus y_{n}) \\ 
+&= S \oplus x_{m} \oplus y_{m}
+
 \end{aligned}$$
 
-
+Hence if we started $$S = 0$$, $$T$$ must be non zero since $$x_{m) \oplus y_{m}$$ will never be $$0$$
 
 **Lemma 2:** It is always possible to make the nim-sum 0 on your turn if
 it wasn’t already 0 at the beginning of your turn.
