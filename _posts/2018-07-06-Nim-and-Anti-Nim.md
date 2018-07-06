@@ -33,3 +33,15 @@ impartial games are played this way, although Nim usually is not.
 
 ---
 
+Types of impartial game positions
+• A game is in a **P-position** if it secures a win for the Previous player
+(the one who just moved).
+• A game is in a **N-position** if it secures a win for the Next player.
+
+Then we can think about this problem as **backwards induction**. The **terminal position**
+of this game is always $$(0, 0, 0)$$ and we can label this as the **P-position**
+And that any position $$(0, 0, n)$$ is an **N position**.
+
+Lets say we have three heaps: $$S = (3, 4, 5)$$. 
+
+In this case, 
