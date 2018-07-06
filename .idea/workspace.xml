@@ -44,8 +44,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-07-06-Nim-and-Anti-Nim.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="385">
-                <caret line="54" column="53" lean-forward="true" selection-start-line="54" selection-start-column="53" selection-end-line="54" selection-end-column="53" />
+              <first_editor relative-caret-position="367">
+                <caret line="79" column="35" lean-forward="true" selection-start-line="79" selection-start-column="35" selection-end-line="79" selection-end-column="35" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -423,13 +423,6 @@
       <option name="presentableId" value="Default" />
       <updated>1486851692241</updated>
     </task>
-    <task id="LOCAL-00087" summary="test new line">
-      <created>1529433498652</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1529433498652</updated>
-    </task>
     <task id="LOCAL-00088" summary="test new line">
       <created>1529433632632</created>
       <option name="number" value="00088" />
@@ -766,7 +759,14 @@
       <option name="project" value="LOCAL" />
       <updated>1530904553900</updated>
     </task>
-    <option name="localTasksCounter" value="136" />
+    <task id="LOCAL-00136" summary="nim and anti-nim">
+      <created>1530905516617</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1530905516617</updated>
+    </task>
+    <option name="localTasksCounter" value="137" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1049,8 +1049,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-07-06-Nim-and-Anti-Nim.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="385">
-            <caret line="54" column="53" lean-forward="true" selection-start-line="54" selection-start-column="53" selection-end-line="54" selection-end-column="53" />
+          <first_editor relative-caret-position="367">
+            <caret line="79" column="35" lean-forward="true" selection-start-line="79" selection-start-column="35" selection-end-line="79" selection-end-column="35" />
             <folding />
           </first_editor>
           <second_editor />

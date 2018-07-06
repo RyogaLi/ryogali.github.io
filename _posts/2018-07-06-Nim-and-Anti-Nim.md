@@ -33,7 +33,7 @@ impartial games are played this way, although Nim usually is not.
 
 ---
 
-Types of impartial game positions
+####Types of impartial game positions####
 
 * A game is in a **P-position** if it secures a win for the Previous player
 (the one who just moved).
@@ -50,12 +50,38 @@ In this case, the start position is always **N position** since the next person
 can take all the things together, 0 must be a **P position**. 2 must be a **P position**
 since the only leagal move is to **N position**...
 
--- 
+---
 
-Now we define a binary operation called **Nim sum ($$$$)**, which is simply adding 
+#### Nim Sum and the proof ####
+
+Now we define a binary operation called **Nim sum ($$\bigoplus$$)**, which is simply adding 
 the binary representation of numbers together in a way that:
 
 $$ 1+0=1=0+1$$ and $$ 1+ 1=0=0+0$$
 
+We note that any $$x \bigoplus x =0$$, we provide the following proof of Nim:
+
+**Theorem**: The winning stratege in normal nim play is to finish every move 
+with a Nim-sum of 0.
+
+**Lemma 1:** If the Nim-sum is 0 after a player’s turn, then the next move
+must change it.
+
+Assume that we have $$n$$ heaps with $$x_{1}, x_{2}, ...,x_{n}$$ number of objects in each heap.
+The Nim-sum of all the heaps before the move will be:
+
+$$S = x_{1} \bigoplus x_{2} \bigoplus ... \bigoplus x_{n}$$
+
+Then we define the Nim-sum of all the heaps after the move:
+
+$$T = y_{1} \bigoplus y_{2} \bigoplus ... \bigoplus y_{n}$$
+
+If $$S =0$$, there is a $$y_{m}$$ after the move that $$y_{m} != x_{k}$$,
+and the rest piles does not change.
+
+
+
+**Lemma 2:** It is always possible to make the nim-sum 0 on your turn if
+it wasn’t already 0 at the beginning of your turn.
 
 
