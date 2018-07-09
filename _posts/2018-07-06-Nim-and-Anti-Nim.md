@@ -33,7 +33,7 @@ impartial games are played this way, although Nim usually is not.
 
 ---
 
-####Types of impartial game positions####
+#### Types of impartial game positions ####
 
 * A game is in a **P-position** if it secures a win for the Previous player
 (the one who just moved).
