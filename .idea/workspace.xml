@@ -46,9 +46,9 @@
       <file leaf-file-name="2018-07-11-Python-Advanced-Logging.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2018-07-11-Python-Advanced-Logging.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="385">
-                <caret line="82" column="73" lean-forward="false" selection-start-line="82" selection-start-column="73" selection-end-line="82" selection-end-column="73" />
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="-6">
+                <caret line="78" column="9" lean-forward="false" selection-start-line="78" selection-start-column="9" selection-end-line="78" selection-end-column="9" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -439,13 +439,6 @@
       <option name="presentableId" value="Default" />
       <updated>1486851692241</updated>
     </task>
-    <task id="LOCAL-00099" summary="null space">
-      <created>1529520159640</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1529520159640</updated>
-    </task>
     <task id="LOCAL-00100" summary="null space">
       <created>1529520295299</created>
       <option name="number" value="00100" />
@@ -782,7 +775,14 @@
       <option name="project" value="LOCAL" />
       <updated>1531502862042</updated>
     </task>
-    <option name="localTasksCounter" value="148" />
+    <task id="LOCAL-00148" summary="finishing up logger">
+      <created>1534364092210</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1534364092211</updated>
+    </task>
+    <option name="localTasksCounter" value="149" />
     <servers />
   </component>
   <component name="TodoView">
@@ -853,7 +853,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="main page" />
     <MESSAGE value="fixed bootstrap" />
     <MESSAGE value="updated equations" />
     <MESSAGE value="Finished part1-3" />
@@ -878,7 +877,8 @@
     <MESSAGE value="nim and anti-nim" />
     <MESSAGE value="nim and anti-nim - lemma one" />
     <MESSAGE value="footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="footer" />
+    <MESSAGE value="finishing up logger" />
+    <option name="LAST_COMMIT_MESSAGE" value="finishing up logger" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1088,9 +1088,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-07-11-Python-Advanced-Logging.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="385">
-            <caret line="82" column="73" lean-forward="false" selection-start-line="82" selection-start-column="73" selection-end-line="82" selection-end-column="73" />
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="-6">
+            <caret line="78" column="9" lean-forward="false" selection-start-line="78" selection-start-column="9" selection-end-line="78" selection-end-column="9" />
             <folding />
           </first_editor>
           <second_editor />

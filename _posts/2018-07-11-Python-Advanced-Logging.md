@@ -26,11 +26,10 @@ keys=simpleFormatter
 level=DEBUG
 handlers=consoleHandler
 
-[logger_simpleExample]
+[logger_testlog]
 level=DEBUG
-handlers=consoleHandler
-qualname=simpleExample
-propagate=0
+handlers=fHandler
+qualname=testlog
 ```
 
 * Level:The logging functions are named after 
@@ -52,6 +51,12 @@ class=StreamHandler
 level=DEBUG
 formatter=simpleFormatter
 args=(sys.stdout,)
+
+[handler_fHandler]
+class=FileHandler
+level=DEBUG
+formatter=simpleFormatter
+args=("./main.log","a")
 ```
 
 * Settings for the handler
@@ -69,18 +74,32 @@ format=%(asctime)s - %(name)s - %(levelname)s - %(message)s
 ``2005-03-19 15:38:55,977 - simpleExample - DEBUG - debug message``
 
 2. Inside python script
-# main.py
+
 {% highlight python %}
+# main.py
 import logging
 import logging.config
 
 # load the root logger
 # load the config file
-logging.config.fileConfig("./logging.conf")
+# always use the absolute path, the error msgs of loggin are not very helpful
+logging.config.fileConfig("path_to/logging.conf", disable_existing_loggers=False)
 # get proper logger
 log = logging.getLogger("root")
 
 # if we change dir (change working directory) and create new logger, the 
+# main.log will be created under that dir
+# For example
+# in module.py
+from main import *
+import logging
+import logging.config
+logging.config.fileConfig("path_to/logging.conf")
+
+# get proper logger
+log = logging.getLogger("testlog")
 
 {% endhighlight %}
+
+
 
