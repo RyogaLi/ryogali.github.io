@@ -6,7 +6,7 @@ tags: [Coding, Bioinformatics]
 
 For python 2.7
 
-0. Create configuration file for logging ( `logging.conf` )
+0. Create the most basic configuration file for logging ( `logging.conf` )
 
 ```
 [loggers]
@@ -31,11 +31,10 @@ level=DEBUG
 handlers=consoleHandler
 qualname=simpleExample
 propagate=0
-
 ```
 
 * Level:The logging functions are named after 
-the level or severity of the events they are 
+the level or severiy of the events they are 
 used to track. The default level is WARNING, 
 which means that only events of this level 
 and above will be tracked
@@ -64,8 +63,24 @@ args=(sys.stdout,)
 ```
 [formatter_simpleFormatter]
 format=%(asctime)s - %(name)s - %(levelname)s - %(message)s
-datefmt=
 ```
 * Format of the logger
 * sample: 
 ``2005-03-19 15:38:55,977 - simpleExample - DEBUG - debug message``
+
+2. Inside python script
+# main.py
+{% highlight python %}
+import logging
+import logging.config
+
+# load the root logger
+# load the config file
+logging.config.fileConfig("./logging.conf")
+# get proper logger
+log = logging.getLogger("root")
+
+# if we change dir (change working directory) and create new logger, the 
+
+{% endhighlight %}
+
