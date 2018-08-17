@@ -32,8 +32,8 @@ the distance to the car ahead. The update for this car is:
 
 $$v \gets min(v + 1, v_{max})$$
 
-$$v \gets min(v, d − 1)$$
+$$v \gets min(v, d-1)$$
 
-$$v \gets max(0, v − 1)$$ with probability $$p$$
+$$v \gets max(0, v-1)$$ with probability $$p$$
 
 $$x \gets x + v$$

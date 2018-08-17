@@ -34,8 +34,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-08-15-Monte-Carlo.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="232">
-                <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <first_editor relative-caret-position="402">
+                <caret line="38" column="14" lean-forward="false" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -388,13 +388,6 @@
       <option name="presentableId" value="Default" />
       <updated>1486851692241</updated>
     </task>
-    <task id="LOCAL-00112" summary="linear transformation">
-      <created>1529613501817</created>
-      <option name="number" value="00112" />
-      <option name="presentableId" value="LOCAL-00112" />
-      <option name="project" value="LOCAL" />
-      <updated>1529613501817</updated>
-    </task>
     <task id="LOCAL-00113" summary="identity matrix">
       <created>1529614124617</created>
       <option name="number" value="00113" />
@@ -731,7 +724,14 @@
       <option name="project" value="LOCAL" />
       <updated>1534534469825</updated>
     </task>
-    <option name="localTasksCounter" value="161" />
+    <task id="LOCAL-00161" summary="Monte carlo">
+      <created>1534534684166</created>
+      <option name="number" value="00161" />
+      <option name="presentableId" value="LOCAL-00161" />
+      <option name="project" value="LOCAL" />
+      <updated>1534534684166</updated>
+    </task>
+    <option name="localTasksCounter" value="162" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1050,8 +1050,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-08-15-Monte-Carlo.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="232">
-            <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <first_editor relative-caret-position="402">
+            <caret line="38" column="14" lean-forward="false" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
             <folding />
           </first_editor>
           <second_editor />
