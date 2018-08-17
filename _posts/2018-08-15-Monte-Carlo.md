@@ -30,7 +30,10 @@ the roadway is a circular loop.
 Let $$x \in {0, 1, . . . , M − 1}$$ be the position of a car, $$v$$ its velocity, and $$d$$ be
 the distance to the car ahead. The update for this car is:
 
-$$v \gets min(v + 1, v_{max})
-v \gets min(v, d − 1)
-v \gets max(0, v − 1) with probability p
-x \gets x + v$$
+$$v \gets min(v + 1, v_{max})$$
+
+$$v \gets min(v, d − 1)$$
+
+$$v \gets max(0, v − 1)$$ with probability $$p$$
+
+$$x \gets x + v$$
