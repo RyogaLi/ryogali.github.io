@@ -37,3 +37,7 @@ $$v \gets min(v, d-1)$$
 $$v \gets max(0, v-1)$$ with probability $$p$$
 
 $$x \gets x + v$$
+
+If we set the variables to real numbers and vidualize this simulation:
+
+![](assets/img/posts/Monte-Carlo-F1.jpg)
