@@ -27,9 +27,7 @@ with velocity $$v$$ moves ahead by $$v$$ zones in the roadway at the next time s
 There is a maximum speed $$v_{max}$$ which all vehicles obey. In the simplest case,
 the roadway is a circular loop.
 
-$$ x \in \{ 0, 1, ... , M - 1 \}$$
-
-Let $$ x \in \{ 0, 1, ..., M − 1 \} $$ be the position of a car, $$v$$ its velocity, and $$d$$ be
+Let $$ x \in \{ 0, 1, ... , M - 1 \}$$ be the position of a car, $$v$$ its velocity, and $$d$$ be
 the distance to the car ahead. The update for this car is:
 
 $$v \gets min(v + 1, v_{max})$$
