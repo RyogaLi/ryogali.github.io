@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Python Advanced Logging"
+title:  "Python Logging with the logging module"
 tags: [Coding, Bioinformatics]
 ---
 
-For python 2.7
+For python 2.7, with file configuration 
 
 0. Create the most basic configuration file for logging ( `logging.conf` )
 
