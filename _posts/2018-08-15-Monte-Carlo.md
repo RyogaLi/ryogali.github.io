@@ -18,7 +18,7 @@ random values from the probability functions.
 
 ---
 
-####Example 1:  traffic modeling####
+#### Example 1:  traffic modeling ####
 
 **Nagel-Schreckenberg model:** In this model the roadway is
 divided up into $$M$$ distinct zones, each of which can hold one vehicle. There
