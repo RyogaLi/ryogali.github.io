@@ -105,13 +105,17 @@ moving $$x$$ in small setps with the opposite sign of the derivative.
 
 Some basic math ... 
 
-$$ f(x, y) = f_{y}(x) = x^{2} + xy + y^{2} $$
+$$ 
+f(x, y) = f_{y}(x) = x^{2} + xy + y^{2} 
+$$
 
 If we substitute a into this function, the function $$ f_{a} $$ which traces a curve $$ x^{2} + ax + a^{2} $$ 
 on the $$\mathbf{xz}$$ plane. Now $$a$$ is a constant, so $$f_{a}$$ is a function of only one real variable and the derivative
 of this function is:
 
-$$f'_{a} = 2x + a$$
+$$
+f'_{a} = 2x + a
+$$
 
 So in this case, the above equation can be performed for any choice of $$a$$:
 
@@ -121,7 +125,9 @@ If we have a scalar-valued function $$f(x_{1}, ..., x_{n})$$ on a domain in Eucl
 case $$f$$ has a partial derivative $$\frac{\partial }{\partial x_{j}}$$with respect to each variable $$x_{j}$$, these partial derivatives define the vector
 **gradient of a**:
 
-$$\triangledown f(a) = (\frac{\partial }{\partial x_{1}}f(a), ..., \frac{\partial }{\partial x_{n}}f(a))$$
+$$
+\triangledown f(a) = (\frac{\partial }{\partial x_{1}}f(a), ..., \frac{\partial }{\partial x_{n}}f(a))
+$$
 
 In multidimensions, **critical points** are points where evvery element of the gradient is equal to zero.
 
@@ -133,11 +139,15 @@ Lets say we have a scalar function $$f(x)= f(x_{1}, x_{2}, ...,x_{n})$$ along a 
 
 is the function $$\triangledown_{v}f$$ defined by the limit:
 
-$$\triangledown_{v} f(\mathbf{x}) = \lim_{h \rightarrow 0}{\frac{f(\bold{x} + h\bold{v}) - f(\bold{x})}{h}}$$
+$$
+\triangledown_{v} f(\mathbf{x}) = \lim_{h \rightarrow 0}{\frac{f(\bold{x} + h\bold{v}) - f(\bold{x})}{h}}
+$$
 
 If the function $$f$$ is differentiable at $$\mathbf{x}$$, then the directional derivative exists along any vector $$\mathbf{v}$$, and one has
 
-$$\triangledown_{v} f(\mathbf{x}) = \triangledown f(\mathbf{x}) \cdot \mathbf{v}$$
+$$
+\triangledown_{v} f(\mathbf{x}) = \triangledown f(\mathbf{x}) \cdot \mathbf{v}
+$$
 
 Intuitively, the directional derivative of $$f$$ at a point $$\mathbf{x}$$ represents the rate of change of f, 
 in the direction of $$\mathbf{v}$$ with respect to time, when moving past $$\mathbf{x}$$.
