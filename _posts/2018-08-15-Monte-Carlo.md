@@ -48,4 +48,4 @@ $$
 
 If we set the variables to real numbers and vidualize this simulation:
 
-![image](https://github.com/RyogaLi/ryogali.github.io/blob/master/assets/img/posts/Monte-Carlo-F1.jpg)
+![image](ryogali.github.io/assets/img/posts/Monte-Carlo-F1.jpg)
