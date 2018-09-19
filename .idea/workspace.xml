@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd68d1c7-b462-4f6e-8a29-c118cdc0ee23" name="Default" comment="" />
+    <list default="true" id="cd68d1c7-b462-4f6e-8a29-c118cdc0ee23" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2018-08-15-Monte-Carlo.md" afterPath="$PROJECT_DIR$/_posts/2018-08-15-Monte-Carlo.md" />
+    </list>
     <ignored path="my-git-page.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,12 +19,32 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="2018-08-15-Monte-Carlo.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2018-08-15-Monte-Carlo.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2018-08-15-Monte-Carlo.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="354">
-                <caret line="42" column="44" lean-forward="false" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
+              <first_editor relative-caret-position="351">
+                <caret line="45" column="4" lean-forward="false" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DL_PI4_f1.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/img/posts/DL_PI4_f1.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2018-06-18-Linear-Algebra-Vectors-and-Spaces.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-06-18-Linear-Algebra-Vectors-and-Spaces.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-1591">
+                <caret line="74" column="38" lean-forward="true" selection-start-line="74" selection-start-column="38" selection-end-line="74" selection-end-column="38" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -45,12 +67,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2013-12-12-Generate-a-table-of-content.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2013-12-12-Generate-a-table-of-content.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_drafts/2013-12-12-Generate-a-table-of-content.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="96">
-                <caret line="6" column="68" lean-forward="false" selection-start-line="6" selection-start-column="68" selection-end-line="6" selection-end-column="81" />
+              <first_editor relative-caret-position="232">
+                <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -115,7 +137,6 @@
         <option value="$PROJECT_DIR$/css/blog.css" />
         <option value="$PROJECT_DIR$/_posts/2018-06-07-part-I3-Probability-and-Information-Theory.md" />
         <option value="$PROJECT_DIR$/pages/search.html" />
-        <option value="$PROJECT_DIR$/_posts/2018-06-12-part-I4-Numerical-Computation.md" />
         <option value="$PROJECT_DIR$/_posts/2018-06-18-Linear-Algebra-Vectors-and-Spaces.md" />
         <option value="$PROJECT_DIR$/_posts/2018-06-21-Linear-Algebra-Matrix-transformations.md" />
         <option value="$PROJECT_DIR$/_posts/2018-07-03-Information-theory-string-distances.md" />
@@ -125,6 +146,7 @@
         <option value="$PROJECT_DIR$/_posts/2018-07-11-Building-a-Python-package.md" />
         <option value="$PROJECT_DIR$/_posts/2018-07-11-Python-Advanced-Logging.md" />
         <option value="$PROJECT_DIR$/_posts/2018-09-17-MCC.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-06-12-part-I4-Numerical-Computation.md" />
         <option value="$PROJECT_DIR$/_posts/2018-08-15-Monte-Carlo.md" />
       </list>
     </option>
@@ -904,7 +926,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_layout/post.html" />
     <entry file="file://$PROJECT_DIR$/_sass/_layout.scss" />
     <entry file="file://$PROJECT_DIR$/_pages/vim_basics.md" />
     <entry file="file://$PROJECT_DIR$/_layout/default.html" />
@@ -995,16 +1016,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-06-12-part-I4-Numerical-Computation.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="544">
-            <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="18" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-07-03-Information-theory-string-distances.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1020,16 +1031,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="470">
             <caret line="126" column="28" lean-forward="false" selection-start-line="126" selection-start-column="28" selection-end-line="126" selection-end-column="28" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-06-18-Linear-Algebra-Vectors-and-Spaces.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1258">
-            <caret line="74" column="38" lean-forward="true" selection-start-line="74" selection-start-column="38" selection-end-line="74" selection-end-column="38" />
           </first_editor>
           <second_editor />
         </state>
@@ -1136,11 +1137,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-08-15-Monte-Carlo.md">
+    <entry file="file://$PROJECT_DIR$/_drafts/2013-12-12-Generate-a-table-of-content.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="354">
-            <caret line="42" column="44" lean-forward="false" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="232">
+            <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1160,11 +1161,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_drafts/2013-12-12-Generate-a-table-of-content.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2018-06-12-part-I4-Numerical-Computation.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="252">
+            <caret line="149" column="0" lean-forward="false" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/posts/DL_PI4_f1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-06-18-Linear-Algebra-Vectors-and-Spaces.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="96">
-            <caret line="6" column="68" lean-forward="false" selection-start-line="6" selection-start-column="68" selection-end-line="6" selection-end-column="81" />
+          <first_editor relative-caret-position="-1591">
+            <caret line="74" column="38" lean-forward="true" selection-start-line="74" selection-start-column="38" selection-end-line="74" selection-end-column="38" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-08-15-Monte-Carlo.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="351">
+            <caret line="45" column="4" lean-forward="false" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
             <folding />
           </first_editor>
           <second_editor />
