@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "What I Talk About When I Talk About Monte-Carlo simulation"
-tags: [Coding, Bioinformatics, Algorithms]
+title:  "What I Talk About When I Talk About Monte-Carlo Simulation"
+tags: [Coding, Bioinformatics, Algorithms, Statistics]
 ---
 
 >Monte Carlo simulation performs risk analysis by building models of possible results by 
@@ -40,4 +40,4 @@ $$x \gets x + v$$
 
 If we set the variables to real numbers and vidualize this simulation:
 
-![](assets/img/posts/Monte-Carlo-F1.jpg)
+![image](assets/img/posts/Monte-Carlo-F1.jpg)
