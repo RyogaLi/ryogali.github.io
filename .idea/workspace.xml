@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd68d1c7-b462-4f6e-8a29-c118cdc0ee23" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2018-10-02-The-PLAsTiCC-Astronomy-Classification.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2018-10-02-The-PLAsTiCC-Astronomy-Classification.md" afterPath="$PROJECT_DIR$/_posts/2018-10-02-The-PLAsTiCC-Astronomy-Classification.md" />
     </list>
     <ignored path="my-git-page.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-10-02-The-PLAsTiCC-Astronomy-Classification.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="426">
+              <first_editor relative-caret-position="317">
                 <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
                 <folding />
               </first_editor>
@@ -1131,7 +1130,7 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-10-02-The-PLAsTiCC-Astronomy-Classification.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="426">
+          <first_editor relative-caret-position="317">
             <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
             <folding />
           </first_editor>
