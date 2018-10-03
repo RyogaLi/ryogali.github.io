@@ -4,11 +4,10 @@ title:  "The PLAsTiCC Astronomy Classification"
 tags: [Deep Learning, Machine Learning, Notes]
 ---
 
-https://www.kaggle.com/c/PLAsTiCC-2018
+[The challenge](https://www.kaggle.com/c/PLAsTiCC-2018)
 
-https://www.kaggle.com/michaelapers/the-plasticc-astronomy-classification-demo
-
-https://www.kaggle.com/michaelapers/the-plasticc-astronomy-starter-kit
+* [Starter notes](https://www.kaggle.com/michaelapers/the-plasticc-astronomy-classification-demo)
+* [Sample code](https://www.kaggle.com/michaelapers/the-plasticc-astronomy-starter-kit)
 
 #### Outline
 
@@ -32,11 +31,14 @@ in Atacama desert of Chile, on a mountain called Cerro Pachon.
 
 **How Astronomers have Studied Astronomical Sources Thus Far**
 
-
 To determine the class of any particular astrophysical source, 
 we currently need lots of observational data.
 
 At present, we classify the sources not using just their light 
 curves, but using more detailed follow-up with other telescopes. 
-We use "spectrographs" - instruments that, much like a prism, 
-disperse a beam of light, spreading different colors over position - to study astrophysical sources.
+We use **spectrographs** - instruments that, much like a prism, 
+disperse a beam of light, spreading different colors over position 
+to study astrophysical sources.
+
+[This TEDed](https://ed.ted.com/lessons/how-do-we-study-the-stars-yuan-sen-ting) 
+explained about this technique.
