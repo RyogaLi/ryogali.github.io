@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "Matthews Correlation Coefficient and other common Statistical measurements"
-tags: [Coding, Bioinformatics, Algorithms, Statistics]
+title:  "Cross linking biological databases and varaint call files analysis"
+tags: [Coding, Bioinformatics]
 ---
 
-
+Main topic of this post:
+1. Converting genomic locations
 
 
