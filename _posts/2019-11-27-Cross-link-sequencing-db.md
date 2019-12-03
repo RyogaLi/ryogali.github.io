@@ -9,7 +9,7 @@ tags: [Coding, Bioinformatics]
 1. Converting genomic locations from VCF files to cDNA locations (in Python3.7)
 2. From canonical transcript to cDNA locations and dealing with genes on different strands
 
-In my example below, I am trying to show how to get all the information starting from the knowncanonical.txt file
+In my example below, I am trying to show how to get all the information starting from the knowncanonical.txt file. 
 
 Please find the download link to the final output below.
 
@@ -61,6 +61,10 @@ OUTPUT:
 
 ```python
 
+# Get cds information from CCDS file
+
+
+
 # Get DNA sequences from UCSC genome browser
 def get_dna(chrom, start, end):
     """
@@ -73,8 +77,6 @@ def get_dna(chrom, start, end):
     r = requests.get(server+ext, headers={"Content-Type": "application/json"})
                                 
     while not r.ok:
-        #r.raise_for_status()
-        print(r)
         time.sleep(200)
         r = requests.get(server+ext, headers={"Content-Type": "application/json"})
                                                                    
@@ -84,3 +86,4 @@ def get_dna(chrom, start, end):
     return dna_seq
 
 ```
+
