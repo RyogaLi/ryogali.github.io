@@ -27,6 +27,8 @@ def get_gene_name(ensg, enst):
     
     All info are from ENSEMBL db
     """
+    
+    # get data from HGNC (to get gene names)
     server = "https://rest.ensembl.org"
     ext= "/xrefs/id/"+ensg+"?external_db=HGNC"
 
@@ -40,6 +42,7 @@ def get_gene_name(ensg, enst):
     gene_symbol = decoded["display_id"]
 
     
+    # get data from CCDS (to get gene ID)
     ext = "/xrefs/id/"+enst+"?external_db=CCDS"
     r = requests.get(server+ext, headers={ "Content-Type" : "application/json"})
 
@@ -64,8 +67,12 @@ OUTPUT:
 # Get cds information from CCDS file
 
 
-
 # Get DNA sequences from UCSC genome browser
+# Note that if you have a huge list of genes (like 
+# in this case I am processing all the human genes
+# I suggest doing this step in downstream analysis when 
+# you only process one gene at a time 
+ 
 def get_dna(chrom, start, end):
     """
     get dna sequences from ucsc genome browser based on 
@@ -73,7 +80,7 @@ def get_dna(chrom, start, end):
     """
     server="https://api.genome.ucsc.edu/" 
     ext = f"getData/sequence?genome=hg38;chrom={chrom};start={start};end={end+1}"
-    print(ext)
+
     r = requests.get(server+ext, headers={"Content-Type": "application/json"})
                                 
     while not r.ok:
