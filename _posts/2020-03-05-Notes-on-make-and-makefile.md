@@ -8,9 +8,9 @@ An introduction of make and makefile that I use to make my first makefile. These
 
 > Make is used to specify dependencies between components in your code. It will compile components in the order required to satisfy dependencies. An important feature is that when a project is recompiled after a few changes, it will recompile only the files which are changed, and any components that are dependent on it.
 
-1. How to write a makefile from scratch?
+####How to write a makefile from scratch?
 
-1.a. Rules in makefile
+1. *Rules in makefile*
 
 Here is an example of a rule in makefile took from the GNU manual. The `target` often means the executable or object files generated. It can also be the name of an action to carry out. `prerequisite` - input files that are used to make the target. `recipe` - the action that make will carry out.
 ```
@@ -52,4 +52,11 @@ clean :
 ```
 When we run `make`, it will start with the first rule in `makefile` and go through each rule to update the files. It will not do anything to the files listed in prerequisites if the file does not depend on anything else. But it does update the target when the prerequisites changed.
 
-1.b. Define variables in makefile
+2. *Define variables in makefile*
+
+We can define variables in makefile to make it look clean. In the example above, we can define the variable `objects` whihc refers to the 8 files we use to make `edit`
+
+```
+objects = main.o kbd.o command.o display.o \
+          insert.o search.o files.o utils.o
+```
