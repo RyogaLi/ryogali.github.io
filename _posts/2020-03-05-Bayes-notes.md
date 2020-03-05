@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Bayes"
+title:  "Bayes Statistics for biologist"
 tags: [Coding, Bioinformatics]
 ---
 
