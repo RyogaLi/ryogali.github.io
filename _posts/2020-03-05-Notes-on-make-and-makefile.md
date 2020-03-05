@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Introduction on GNU make (for Python3)"
+title:  "Introduction to GNU make (for Python3)"
 tags: [Coding]
 ---
 
@@ -8,9 +8,9 @@ An introduction of make and makefile that I use to make my first makefile. These
 
 > Make is used to specify dependencies between components in your code. It will compile components in the order required to satisfy dependencies. An important feature is that when a project is recompiled after a few changes, it will recompile only the files which are changed, and any components that are dependent on it.
 
-####How to write a makefile from scratch?
+#### How to write a makefile from scratch? ####
 
-1. *Rules in makefile*
+1. **Rules in makefile**
 
 Here is an example of a rule in makefile took from the GNU manual. The `target` often means the executable or object files generated. It can also be the name of an action to carry out. `prerequisite` - input files that are used to make the target. `recipe` - the action that make will carry out.
 ```
@@ -52,11 +52,38 @@ clean :
 ```
 When we run `make`, it will start with the first rule in `makefile` and go through each rule to update the files. It will not do anything to the files listed in prerequisites if the file does not depend on anything else. But it does update the target when the prerequisites changed.
 
-2. *Define variables in makefile*
+2. **Define variables in makefile**
 
-We can define variables in makefile to make it look clean. In the example above, we can define the variable `objects` whihc refers to the 8 files we use to make `edit`
+We can define variables in makefile to make it look clean. In the example above, we can define the variable `objects` which refers to the 8 files we use to make `edit`
 
 ```
 objects = main.o kbd.o command.o display.o \
           insert.o search.o files.o utils.o
 ```
+
+3. **Make can deduce the recipe**
+
+Sometimes we don't have to tell make what to do exactly in the recipes. For example, it will use `cc -c main.c -o main.o` to compile `main.c` and `main.o`. And we can simplify the makefile into:
+
+```
+objects = main.o kbd.o command.o display.o \
+          insert.o search.o files.o utils.o
+
+edit : $(objects)
+        cc -o edit $(objects)
+
+main.o : defs.h
+kbd.o : defs.h command.h
+command.o : defs.h command.h
+display.o : defs.h buffer.h
+insert.o : defs.h buffer.h
+search.o : defs.h buffer.h
+files.o : defs.h buffer.h command.h
+utils.o : defs.h
+
+.PHONY : clean
+clean :
+        rm edit $(objects)
+```
+
+4. **PHONY target**
